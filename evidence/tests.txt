@@ -1,0 +1,45 @@
+
+> touch-grass-local@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ discovery is frozen disabled, and even supplying a key makes zero requests (0.970542ms)
+✔ enabled adapter rejects missing keys and invalid queries before any request (0.197458ms)
+✔ normalization preserves supplied listing facts and marks them unverified (0.163334ms)
+✔ normalization bounds result count and text and excludes unsafe website protocols (1.09175ms)
+✔ incomplete listing entries are ignored while valid supplied facts survive (0.08375ms)
+✔ optional adapter uses only the explicit fake transport and returns normalized results (0.2555ms)
+✔ network, HTTP and provider errors are explicit and do not expose keys or raw service details (0.234833ms)
+✔ runtime import does not start inference and describes local CPU model truthfully (0.345958ms)
+✔ cosine handles arbitrary vector magnitudes and rejects undefined comparisons (0.259334ms)
+✔ invalid embeddings and candidates fail before loading or downloading any model (0.452375ms)
+✔ input accepts the documented boundary budgets and strips unrelated data (0.482875ms)
+✔ invalid requests are rejected before ranking (0.527459ms)
+✔ time, movement, company, daylight and urban restrictions eliminate incompatible activities (0.794875ms)
+✔ explicit prose restrictions take precedence over permissive form selections before ranking (0.867667ms)
+✔ green surroundings exclude city-only activities while retaining flexible nature activities (3.550167ms)
+✔ supported no-walking phrases include typographic apostrophes and capitalization (0.137417ms)
+✔ no eligible activity is an explicit input error and never invokes a ranker (0.101084ms)
+✔ all generated plans allocate the entire budget without negative or missing steps (1.039916ms)
+✔ fixture mode is explicitly labeled as non-AI and does not echo user text (0.15075ms)
+✔ model mode reports actual model metadata and describes template-based plans (0.123208ms)
+✔ failed model inference is propagated rather than replaced by fixture results (0.082083ms)
+✔ unknown and nonfinite ranked results cannot become plans (0.096833ms)
+✔ the actual curated dataset produces feasible plans across supported form choices (1.610459ms)
+✔ status honestly labels fixture and disabled discovery and has privacy headers (9.127333ms)
+✔ host and origin guards reject foreign requests before invoking the model (4.103792ms)
+✔ same-origin planner request returns a budgeted plan without storing query in state or status (2.038583ms)
+✔ planner rejects malformed JSON, wrong content type, invalid inputs, and oversized bytes (3.093ms)
+✔ malformed request targets receive 400 without an unhandled listener rejection (0.236625ms)
+✔ UTF-8 user text is preserved when a character spans request body chunks (0.386209ms)
+✔ model-not-ready returns 503 and cannot silently invoke the fixture ranker (0.664459ms)
+✔ inference failures return an explicit sanitized error, then release the busy guard (0.786833ms)
+✔ concurrent inference requests are bounded while status stays readable (0.961375ms)
+✔ only the three listed public assets are served, with no backend, dataset, or discovery route (4.165375ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 75.4125

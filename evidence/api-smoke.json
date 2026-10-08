@@ -1,0 +1,523 @@
+{
+  "verifiedAt": "2026-10-08T01:15:52.203Z",
+  "result": "PASS: live local-model HTTP requests and static asset delivery",
+  "status": {
+    "mode": "local-model",
+    "ready": true,
+    "model": {
+      "source": "sentence-transformers/all-MiniLM-L6-v2",
+      "repository": "Xenova/all-MiniLM-L6-v2",
+      "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+      "license": "Apache-2.0",
+      "backend": "ONNX Runtime CPU",
+      "dtype": "q8",
+      "dimensions": 384,
+      "maxTokens": 256,
+      "localName": "all-MiniLM-L6-v2-q8",
+      "weightsSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+      "weightsBytes": 22972370,
+      "id": "sentence-transformers/all-MiniLM-L6-v2",
+      "offline": true,
+      "local": true
+    },
+    "error": null,
+    "datasetCount": 16,
+    "discovery": {
+      "enabled": false,
+      "reason": "Future optional integration; no searches or API spending in this prototype."
+    }
+  },
+  "assets": [
+    {
+      "path": "/",
+      "bytes": 12085,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/styles.css",
+      "bytes": 17878,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "/app.js",
+      "bytes": 13395,
+      "contentType": "text/javascript; charset=utf-8"
+    }
+  ],
+  "cases": [
+    {
+      "input": {
+        "query": "I want to quietly observe feathered wildlife while seated",
+        "minutes": 15,
+        "movement": "seated",
+        "setting": "green",
+        "daylight": true,
+        "company": "solo"
+      },
+      "output": {
+        "mode": "local-model",
+        "model": {
+          "source": "sentence-transformers/all-MiniLM-L6-v2",
+          "repository": "Xenova/all-MiniLM-L6-v2",
+          "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+          "license": "Apache-2.0",
+          "backend": "ONNX Runtime CPU",
+          "dtype": "q8",
+          "dimensions": 384,
+          "maxTokens": 256,
+          "localName": "all-MiniLM-L6-v2-q8",
+          "weightsSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+          "weightsBytes": 22972370,
+          "id": "sentence-transformers/all-MiniLM-L6-v2",
+          "offline": true,
+          "local": true
+        },
+        "elapsedMs": 32,
+        "plan": {
+          "id": "wildlife-watch",
+          "title": "Watch a little wild activity",
+          "description": "Spend a few quiet minutes observing movement near familiar greenery, with no promise of a wildlife sighting.",
+          "totalMinutes": 15,
+          "steps": [
+            {
+              "title": "Choose a still viewpoint",
+              "detail": "Stay at a familiar outdoor spot near greenery, using an existing seat if suitable. Observe from a distance without feeding or approaching animals. Use a familiar spot within 3 minutes of where you start, or stay just outside your door.",
+              "minutes": 3
+            },
+            {
+              "title": "Look for movement",
+              "detail": "Notice any bird, insect or other movement already in view. If no animal appears, follow a moving leaf or branch instead.",
+              "minutes": 9
+            },
+            {
+              "title": "Describe one sequence",
+              "detail": "Remember three things that happened in order. Use plain observations without guessing an animal's species or intentions. Keep these last 3 minutes for wrapping up and returning.",
+              "minutes": 3
+            }
+          ],
+          "takeaway": "A small sequence of outdoor movement you observed yourself.",
+          "tags": [
+            "quiet",
+            "noticing",
+            "solo",
+            "nature",
+            "no-walking"
+          ],
+          "equipment": [],
+          "score": 0.684,
+          "reason": "Fits your 15-minute budget and can be done seated. Check the listed conditions before you go.",
+          "requirements": [
+            "daylight",
+            "green-space"
+          ],
+          "movement": "seated"
+        },
+        "alternatives": [
+          {
+            "id": "green-detail-portrait",
+            "title": "Meet one ordinary plant",
+            "description": "Look closely at one plant without picking it, naming its species or leaving a permitted path.",
+            "totalMinutes": 15,
+            "steps": [
+              {
+                "title": "Choose a plant in view",
+                "detail": "Use a familiar outdoor seat or spot near greenery you can already reach. Pick one plant visible from there and leave it untouched. Use a familiar spot within 3 minutes of where you start, or stay just outside your door.",
+                "minutes": 3
+              },
+              {
+                "title": "Look for three details",
+                "detail": "Notice an edge, a repeated shape and a color difference. Describe only what you can observe; a species name is unnecessary.",
+                "minutes": 9
+              },
+              {
+                "title": "Create its portrait",
+                "detail": "Make a quick mental or pencil sketch, then give it a descriptive nickname such as 'the zigzag leaf'. Keep these last 3 minutes for wrapping up and returning.",
+                "minutes": 3
+              }
+            ],
+            "takeaway": "A detailed portrait of one plant, left exactly where it was.",
+            "tags": [
+              "quiet",
+              "creative",
+              "noticing",
+              "solo",
+              "nature",
+              "no-walking"
+            ],
+            "equipment": [
+              "Paper and pencil (optional)"
+            ],
+            "score": 0.549,
+            "reason": "Fits your 15-minute budget and can be done seated. Check the listed conditions before you go.",
+            "requirements": [
+              "daylight",
+              "green-space"
+            ],
+            "movement": "seated"
+          },
+          {
+            "id": "doorstep-color-study",
+            "title": "Find your outdoor palette",
+            "description": "From one familiar outdoor spot, notice a small collection of colors you would usually walk past.",
+            "totalMinutes": 15,
+            "steps": [
+              {
+                "title": "Pick one spot",
+                "detail": "Choose a familiar outdoor place you can use comfortably, such as your doorstep or an existing seat. Stay there for the activity. Use a familiar spot within 3 minutes of where you start, or stay just outside your door.",
+                "minutes": 3
+              },
+              {
+                "title": "Collect colors with your eyes",
+                "detail": "Find three different colors around you. Look for a second shade of each, without moving or collecting anything.",
+                "minutes": 9
+              },
+              {
+                "title": "Name the palette",
+                "detail": "Give the colors your own names and choose a title for the scene. Remember it or make a brief note. Keep these last 3 minutes for wrapping up and returning.",
+                "minutes": 3
+              }
+            ],
+            "takeaway": "A three-color palette named after a real moment outside.",
+            "tags": [
+              "quiet",
+              "creative",
+              "noticing",
+              "solo",
+              "urban",
+              "nature",
+              "no-walking",
+              "doorstep"
+            ],
+            "equipment": [
+              "Paper and pencil (optional)"
+            ],
+            "score": 0.478,
+            "reason": "Fits your 15-minute budget and can be done seated. No special setting is required.",
+            "requirements": [],
+            "movement": "seated"
+          }
+        ],
+        "constraints": {
+          "minutes": 15,
+          "movement": "seated",
+          "setting": "green",
+          "company": "solo",
+          "daylight": true,
+          "restrictions": {
+            "seated": false,
+            "solo": false,
+            "dark": false,
+            "noGreen": false,
+            "quiet": false
+          },
+          "applied": [],
+          "eligibleCount": 8
+        },
+        "note": "A local embedding model ranks curated activity types. Plans use editorial templates, not generated venue facts. Similarity is not a confidence or safety score."
+      }
+    },
+    {
+      "input": {
+        "query": "I want a quiet break, no walking, alone after dark, no parks",
+        "minutes": 5,
+        "movement": "any",
+        "setting": "urban",
+        "daylight": false,
+        "company": "together"
+      },
+      "output": {
+        "mode": "local-model",
+        "model": {
+          "source": "sentence-transformers/all-MiniLM-L6-v2",
+          "repository": "Xenova/all-MiniLM-L6-v2",
+          "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+          "license": "Apache-2.0",
+          "backend": "ONNX Runtime CPU",
+          "dtype": "q8",
+          "dimensions": 384,
+          "maxTokens": 256,
+          "localName": "all-MiniLM-L6-v2-q8",
+          "weightsSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+          "weightsBytes": 22972370,
+          "id": "sentence-transformers/all-MiniLM-L6-v2",
+          "offline": true,
+          "local": true
+        },
+        "elapsedMs": 7,
+        "plan": {
+          "id": "doorstep-color-study",
+          "title": "Find your outdoor palette",
+          "description": "From one familiar outdoor spot, notice a small collection of colors you would usually walk past.",
+          "totalMinutes": 5,
+          "steps": [
+            {
+              "title": "Pick one spot",
+              "detail": "Choose a familiar outdoor place you can use comfortably, such as your doorstep or an existing seat. Stay there for the activity. Use a familiar spot within 1 minute of where you start, or stay just outside your door.",
+              "minutes": 1
+            },
+            {
+              "title": "Collect colors with your eyes",
+              "detail": "Find three different colors around you. Look for a second shade of each, without moving or collecting anything.",
+              "minutes": 3
+            },
+            {
+              "title": "Name the palette",
+              "detail": "Give the colors your own names and choose a title for the scene. Remember it or make a brief note. Keep these last 1 minute for wrapping up and returning.",
+              "minutes": 1
+            }
+          ],
+          "takeaway": "A three-color palette named after a real moment outside.",
+          "tags": [
+            "quiet",
+            "creative",
+            "noticing",
+            "solo",
+            "urban",
+            "nature",
+            "no-walking",
+            "doorstep"
+          ],
+          "equipment": [
+            "Paper and pencil (optional)"
+          ],
+          "score": 0.522,
+          "reason": "Fits your 5-minute budget and can be done seated. No special setting is required.",
+          "requirements": [],
+          "movement": "seated"
+        },
+        "alternatives": [
+          {
+            "id": "sound-map",
+            "title": "Map a minute of sound",
+            "description": "Stay in one outdoor place and build an imaginary map of nearby and distant sounds.",
+            "totalMinutes": 5,
+            "steps": [
+              {
+                "title": "Settle somewhere familiar",
+                "detail": "Use a familiar outdoor spot where you can remain aware of your surroundings. Keep your eyes open and leave headphones off. Use a familiar spot within 1 minute of where you start, or stay just outside your door.",
+                "minutes": 1
+              },
+              {
+                "title": "Locate the sounds",
+                "detail": "Notice one nearby sound, one distant sound and one that changes. Imagine where each belongs on a map around you.",
+                "minutes": 3
+              },
+              {
+                "title": "Make a tiny record",
+                "detail": "Remember or sketch three marks for the sounds. Give the map a title based on what you actually heard. Keep these last 1 minute for wrapping up and returning.",
+                "minutes": 1
+              }
+            ],
+            "takeaway": "A small sound map of one place at one time.",
+            "tags": [
+              "quiet",
+              "noticing",
+              "solo",
+              "urban",
+              "nature",
+              "no-walking",
+              "doorstep"
+            ],
+            "equipment": [
+              "Paper and pencil (optional)"
+            ],
+            "score": 0.492,
+            "reason": "Fits your 5-minute budget and can be done seated. No special setting is required.",
+            "requirements": [],
+            "movement": "seated"
+          }
+        ],
+        "constraints": {
+          "minutes": 5,
+          "movement": "any",
+          "setting": "urban",
+          "company": "together",
+          "daylight": false,
+          "restrictions": {
+            "seated": true,
+            "solo": true,
+            "dark": true,
+            "noGreen": true,
+            "quiet": true
+          },
+          "applied": [
+            "Seated only (from your words)",
+            "Solo (from your words)",
+            "No daylight required (from your words)",
+            "No green space required (from your words)",
+            "Quiet activities (from your words)"
+          ],
+          "eligibleCount": 2
+        },
+        "note": "A local embedding model ranks curated activity types. Plans use editorial templates, not generated venue facts. Similarity is not a confidence or safety score."
+      }
+    },
+    {
+      "input": {
+        "query": "Look for repeating geometric shapes in buildings on a short walk",
+        "minutes": 15,
+        "movement": "gentle",
+        "setting": "urban",
+        "daylight": true,
+        "company": "solo"
+      },
+      "output": {
+        "mode": "local-model",
+        "model": {
+          "source": "sentence-transformers/all-MiniLM-L6-v2",
+          "repository": "Xenova/all-MiniLM-L6-v2",
+          "revision": "751bff37182d3f1213fa05d7196b954e230abad9",
+          "license": "Apache-2.0",
+          "backend": "ONNX Runtime CPU",
+          "dtype": "q8",
+          "dimensions": 384,
+          "maxTokens": 256,
+          "localName": "all-MiniLM-L6-v2-q8",
+          "weightsSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+          "weightsBytes": 22972370,
+          "id": "sentence-transformers/all-MiniLM-L6-v2",
+          "offline": true,
+          "local": true
+        },
+        "elapsedMs": 34,
+        "plan": {
+          "id": "pavement-patterns",
+          "title": "Find a pattern on your block",
+          "description": "Take a short, familiar paved route and look for repeated shapes in the built environment.",
+          "totalMinutes": 15,
+          "steps": [
+            {
+              "title": "Set a small route",
+              "detail": "Choose a short, familiar paved route with a clear return point. Keep the whole outing, including the way back, within your available time. Use a familiar spot within 3 minutes of where you start, or stay just outside your door.",
+              "minutes": 3
+            },
+            {
+              "title": "Spot repetition",
+              "detail": "Pause out of the way to notice three repeated shapes in walls, railings or paving. Stay on permitted paths and remain aware of crossings.",
+              "minutes": 9
+            },
+            {
+              "title": "Choose your motif",
+              "detail": "Return by the familiar route and pick the pattern you would use on a postcard. Describe it in a few words. Keep these last 3 minutes for wrapping up and returning.",
+              "minutes": 3
+            }
+          ],
+          "takeaway": "One visual motif discovered on an ordinary route.",
+          "tags": [
+            "quiet",
+            "creative",
+            "noticing",
+            "solo",
+            "urban",
+            "walking"
+          ],
+          "equipment": [],
+          "score": 0.593,
+          "reason": "Fits your 15-minute budget. Check the listed conditions before you go.",
+          "requirements": [
+            "daylight"
+          ],
+          "movement": "gentle"
+        },
+        "alternatives": [
+          {
+            "id": "architecture-alphabet",
+            "title": "Find letters in the streetscape",
+            "description": "Turn a familiar paved walk into a search for letter-like shapes in everyday structures.",
+            "totalMinutes": 15,
+            "steps": [
+              {
+                "title": "Choose three letters",
+                "detail": "Pick three simple letters, then choose a short paved route you already know. Set a turnaround point that leaves enough time to return. Use a familiar spot within 3 minutes of where you start, or stay just outside your door.",
+                "minutes": 3
+              },
+              {
+                "title": "Find their shapes",
+                "detail": "Look for the letters in shapes visible from the path, such as a Y-shaped branch or an H-shaped railing. Pause only where you can do so comfortably.",
+                "minutes": 9
+              },
+              {
+                "title": "Build an imaginary sign",
+                "detail": "Head back and picture the three found letters together. Missing letters are fine; use the shapes you actually noticed. Keep these last 3 minutes for wrapping up and returning.",
+                "minutes": 3
+              }
+            ],
+            "takeaway": "A small alphabet assembled from your surroundings.",
+            "tags": [
+              "creative",
+              "noticing",
+              "solo",
+              "urban",
+              "walking"
+            ],
+            "equipment": [],
+            "score": 0.496,
+            "reason": "Fits your 15-minute budget. Check the listed conditions before you go.",
+            "requirements": [
+              "daylight"
+            ],
+            "movement": "gentle"
+          },
+          {
+            "id": "outdoor-memory-map",
+            "title": "Draw a place from memory",
+            "description": "Study one familiar outdoor view, then see which details make it into a simple memory map.",
+            "totalMinutes": 15,
+            "steps": [
+              {
+                "title": "Study one view",
+                "detail": "Stay at a familiar outdoor spot and pick a small view in front of you. Notice the positions of three to five fixed objects. Use a familiar spot within 3 minutes of where you start, or stay just outside your door.",
+                "minutes": 3
+              },
+              {
+                "title": "Rebuild it from memory",
+                "detail": "Look down and sketch a few simple shapes, or describe their positions to yourself. Keep it rough; drawing skill is unnecessary.",
+                "minutes": 9
+              },
+              {
+                "title": "Look back and compare",
+                "detail": "Compare your map with the actual view. Add one overlooked detail and give the map a short place-inspired title. Keep these last 3 minutes for wrapping up and returning.",
+                "minutes": 3
+              }
+            ],
+            "takeaway": "A rough memory map with one detail added after a second look.",
+            "tags": [
+              "quiet",
+              "creative",
+              "noticing",
+              "solo",
+              "urban",
+              "nature",
+              "no-walking",
+              "doorstep"
+            ],
+            "equipment": [
+              "Paper and pencil (optional)"
+            ],
+            "score": 0.443,
+            "reason": "Fits your 15-minute budget and can be done seated. No special setting is required.",
+            "requirements": [],
+            "movement": "seated"
+          }
+        ],
+        "constraints": {
+          "minutes": 15,
+          "movement": "gentle",
+          "setting": "urban",
+          "company": "solo",
+          "daylight": true,
+          "restrictions": {
+            "seated": false,
+            "solo": false,
+            "dark": false,
+            "noGreen": false,
+            "quiet": false
+          },
+          "applied": [],
+          "eligibleCount": 10
+        },
+        "note": "A local embedding model ranks curated activity types. Plans use editorial templates, not generated venue facts. Similarity is not a confidence or safety score."
+      }
+    }
+  ]
+}

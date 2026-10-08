@@ -1,0 +1,14 @@
+node_modules/
+.models/
+models/
+.cache/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+
+# Private review provenance and temporary capture diagnostics
+evidence/article-source.json
+evidence/browser-initial-focus-assertion.json
+evidence/browser/demo-frame-5s.png

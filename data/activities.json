@@ -1,0 +1,322 @@
+[
+  {
+    "id": "doorstep-color-study",
+    "title": "Find your outdoor palette",
+    "description": "From one familiar outdoor spot, notice a small collection of colors you would usually walk past.",
+    "semanticText": "A quiet solo outdoor color observation from a doorstep, balcony, courtyard or other familiar permitted spot. No walking is necessary. Creative, seated, short, low effort, urban or nature, no equipment, no spending.",
+    "minMinutes": 4,
+    "idealMinutes": 10,
+    "tags": ["quiet", "creative", "noticing", "solo", "urban", "nature", "no-walking", "doorstep"],
+    "terrain": "any",
+    "movement": "seated",
+    "cost": "free",
+    "equipment": ["Paper and pencil (optional)"],
+    "requirements": [],
+    "steps": [
+      {"title": "Pick one spot", "detail": "Choose a familiar outdoor place you can use comfortably, such as your doorstep or an existing seat. Stay there for the activity."},
+      {"title": "Collect colors with your eyes", "detail": "Find three different colors around you. Look for a second shade of each, without moving or collecting anything."},
+      {"title": "Name the palette", "detail": "Give the colors your own names and choose a title for the scene. Remember it or make a brief note."}
+    ],
+    "takeaway": "A three-color palette named after a real moment outside."
+  },
+  {
+    "id": "sound-map",
+    "title": "Map a minute of sound",
+    "description": "Stay in one outdoor place and build an imaginary map of nearby and distant sounds.",
+    "semanticText": "Quiet solo listening outdoors without walking, exercise, conversation or a phone. Sit at a familiar doorstep, balcony or courtyard. Notice city or nature sounds and make a simple sound map. Short, seated, any setting.",
+    "minMinutes": 4,
+    "idealMinutes": 8,
+    "tags": ["quiet", "noticing", "solo", "urban", "nature", "no-walking", "doorstep"],
+    "terrain": "any",
+    "movement": "seated",
+    "cost": "free",
+    "equipment": ["Paper and pencil (optional)"],
+    "requirements": [],
+    "steps": [
+      {"title": "Settle somewhere familiar", "detail": "Use a familiar outdoor spot where you can remain aware of your surroundings. Keep your eyes open and leave headphones off."},
+      {"title": "Locate the sounds", "detail": "Notice one nearby sound, one distant sound and one that changes. Imagine where each belongs on a map around you."},
+      {"title": "Make a tiny record", "detail": "Remember or sketch three marks for the sounds. Give the map a title based on what you actually heard."}
+    ],
+    "takeaway": "A small sound map of one place at one time."
+  },
+  {
+    "id": "sky-postcard",
+    "title": "Write a sky postcard",
+    "description": "Observe the daytime sky from a single spot and describe it in a few original words.",
+    "semanticText": "A seated quiet creative outdoor activity with no walking. Look at the daytime sky, cloud shapes, changing light and open space from a familiar outdoor spot. Solo, short, urban or nature, no special equipment.",
+    "minMinutes": 5,
+    "idealMinutes": 12,
+    "tags": ["quiet", "creative", "noticing", "solo", "urban", "nature", "no-walking", "doorstep"],
+    "terrain": "any",
+    "movement": "seated",
+    "cost": "free",
+    "equipment": ["Paper and pencil (optional)"],
+    "requirements": ["daylight"],
+    "steps": [
+      {"title": "Find a view of the sky", "detail": "Choose a familiar outdoor spot with a comfortable sky view. Look away from the sun and avoid looking at it directly."},
+      {"title": "Notice what is there", "detail": "Observe a cloud edge, a patch of clear sky or changing light. If the sky looks still, compare two different parts of the view."},
+      {"title": "Compose your postcard", "detail": "Finish the sentence: 'Outside today, the sky looked like…' Keep it to three lines, written down or held in memory."}
+    ],
+    "takeaway": "A three-line postcard from today's sky."
+  },
+  {
+    "id": "shadow-study",
+    "title": "Follow one shadow",
+    "description": "Study the shapes made by daylight without needing a route or a destination.",
+    "semanticText": "Seated creative noticing outside in daylight. Observe shadows, light, shapes and contrast from one familiar spot. No walking required, quiet solo activity, urban courtyard or nature setting. If light is flat, compare light and dark patches.",
+    "minMinutes": 5,
+    "idealMinutes": 10,
+    "tags": ["quiet", "creative", "noticing", "solo", "urban", "nature", "no-walking", "doorstep"],
+    "terrain": "any",
+    "movement": "seated",
+    "cost": "free",
+    "equipment": ["Paper and pencil (optional)"],
+    "requirements": ["daylight"],
+    "steps": [
+      {"title": "Choose a comfortable viewpoint", "detail": "Stay at a familiar outdoor spot and find a shadow you can see from there. In flat light, choose a light patch beside a darker one."},
+      {"title": "Trace it in the air", "detail": "Follow its outline with your eyes. Notice one straight edge, curve or broken shape; do not expect it to move during a short visit."},
+      {"title": "Turn it into a shape", "detail": "Imagine what the outline resembles, or make a quick sketch. Give the shape a name before you finish."}
+    ],
+    "takeaway": "One ordinary shadow seen as a new shape."
+  },
+  {
+    "id": "outdoor-three-line-story",
+    "title": "Make a tiny outdoor story",
+    "description": "Use three things visible from one spot as the ingredients for a short fictional scene.",
+    "semanticText": "Creative writing outdoors, seated, solo, quiet, no walking. A familiar doorstep or outdoor seat in an urban or natural setting. Notice ordinary objects and invent a clearly fictional three-line story. Optional pencil and paper, no phone needed.",
+    "minMinutes": 6,
+    "idealMinutes": 15,
+    "tags": ["quiet", "creative", "noticing", "solo", "urban", "nature", "no-walking", "doorstep"],
+    "terrain": "any",
+    "movement": "seated",
+    "cost": "free",
+    "equipment": ["Paper and pencil (optional)"],
+    "requirements": [],
+    "steps": [
+      {"title": "Choose your ingredients", "detail": "From a familiar outdoor spot, pick three visible non-personal details, such as a wall, a leaf or a passing cloud."},
+      {"title": "Invent a small scene", "detail": "Make up three lines connecting the details. Let the story be obviously fictional rather than a claim about people nearby."},
+      {"title": "Give it a title", "detail": "Choose a short title and remember or note the story. Take a final look at the actual scene that supplied the ingredients."}
+    ],
+    "takeaway": "A tiny fictional story with real outdoor ingredients."
+  },
+  {
+    "id": "green-detail-portrait",
+    "title": "Meet one ordinary plant",
+    "description": "Look closely at one plant without picking it, naming its species or leaving a permitted path.",
+    "semanticText": "Quiet seated nature observation in a reachable familiar green space. Study the shape and colors of a nearby plant, tree or leaves without identifying species, touching or collecting. Creative no-walking activity with optional sketching, solo, daylight.",
+    "minMinutes": 6,
+    "idealMinutes": 12,
+    "tags": ["quiet", "creative", "noticing", "solo", "nature", "no-walking"],
+    "terrain": "any",
+    "movement": "seated",
+    "cost": "free",
+    "equipment": ["Paper and pencil (optional)"],
+    "requirements": ["daylight", "green-space"],
+    "steps": [
+      {"title": "Choose a plant in view", "detail": "Use a familiar outdoor seat or spot near greenery you can already reach. Pick one plant visible from there and leave it untouched."},
+      {"title": "Look for three details", "detail": "Notice an edge, a repeated shape and a color difference. Describe only what you can observe; a species name is unnecessary."},
+      {"title": "Create its portrait", "detail": "Make a quick mental or pencil sketch, then give it a descriptive nickname such as 'the zigzag leaf'."}
+    ],
+    "takeaway": "A detailed portrait of one plant, left exactly where it was."
+  },
+  {
+    "id": "wildlife-watch",
+    "title": "Watch a little wild activity",
+    "description": "Spend a few quiet minutes observing movement near familiar greenery, with no promise of a wildlife sighting.",
+    "semanticText": "Quiet seated nature and bird watching outdoors in daylight near familiar green space. Observe birds, insects or moving leaves without approaching animals, feeding them or needing binoculars. No walking, solo, patient noticing with no guaranteed sightings.",
+    "minMinutes": 8,
+    "idealMinutes": 15,
+    "tags": ["quiet", "noticing", "solo", "nature", "no-walking"],
+    "terrain": "any",
+    "movement": "seated",
+    "cost": "free",
+    "equipment": [],
+    "requirements": ["daylight", "green-space"],
+    "steps": [
+      {"title": "Choose a still viewpoint", "detail": "Stay at a familiar outdoor spot near greenery, using an existing seat if suitable. Observe from a distance without feeding or approaching animals."},
+      {"title": "Look for movement", "detail": "Notice any bird, insect or other movement already in view. If no animal appears, follow a moving leaf or branch instead."},
+      {"title": "Describe one sequence", "detail": "Remember three things that happened in order. Use plain observations without guessing an animal's species or intentions."}
+    ],
+    "takeaway": "A small sequence of outdoor movement you observed yourself."
+  },
+  {
+    "id": "pavement-patterns",
+    "title": "Find a pattern on your block",
+    "description": "Take a short, familiar paved route and look for repeated shapes in the built environment.",
+    "semanticText": "Short gentle urban walk on a familiar paved path or sidewalk, looking at repeating patterns, architecture, bricks, railings and shapes. Solo creative noticing, no special equipment, free, return to start, daylight.",
+    "minMinutes": 8,
+    "idealMinutes": 15,
+    "tags": ["quiet", "creative", "noticing", "solo", "urban", "walking"],
+    "terrain": "paved",
+    "movement": "gentle",
+    "cost": "free",
+    "equipment": [],
+    "requirements": ["daylight"],
+    "steps": [
+      {"title": "Set a small route", "detail": "Choose a short, familiar paved route with a clear return point. Keep the whole outing, including the way back, within your available time."},
+      {"title": "Spot repetition", "detail": "Pause out of the way to notice three repeated shapes in walls, railings or paving. Stay on permitted paths and remain aware of crossings."},
+      {"title": "Choose your motif", "detail": "Return by the familiar route and pick the pattern you would use on a postcard. Describe it in a few words."}
+    ],
+    "takeaway": "One visual motif discovered on an ordinary route."
+  },
+  {
+    "id": "architecture-alphabet",
+    "title": "Find letters in the streetscape",
+    "description": "Turn a familiar paved walk into a search for letter-like shapes in everyday structures.",
+    "semanticText": "Creative playful solo urban microadventure, gentle short walk on paved paths. Notice architecture and find letter shapes in public-facing railings, branches, walls and ordinary structures. No purchases, no photography required, daylight, familiar route.",
+    "minMinutes": 10,
+    "idealMinutes": 20,
+    "tags": ["creative", "noticing", "solo", "urban", "walking"],
+    "terrain": "paved",
+    "movement": "gentle",
+    "cost": "free",
+    "equipment": [],
+    "requirements": ["daylight"],
+    "steps": [
+      {"title": "Choose three letters", "detail": "Pick three simple letters, then choose a short paved route you already know. Set a turnaround point that leaves enough time to return."},
+      {"title": "Find their shapes", "detail": "Look for the letters in shapes visible from the path, such as a Y-shaped branch or an H-shaped railing. Pause only where you can do so comfortably."},
+      {"title": "Build an imaginary sign", "detail": "Head back and picture the three found letters together. Missing letters are fine; use the shapes you actually noticed."}
+    ],
+    "takeaway": "A small alphabet assembled from your surroundings."
+  },
+  {
+    "id": "there-and-back-noticing",
+    "title": "Take the same path, see it twice",
+    "description": "Walk a short familiar route out and back, looking for different details in each direction.",
+    "semanticText": "Gentle short solo outdoor walk with a clear turnaround, no destination, no spending and no equipment. Familiar urban or nature path, notice details on the way out and the way back. Simple microadventure, low effort walking, can use familiar well-lit route after dark.",
+    "minMinutes": 10,
+    "idealMinutes": 20,
+    "tags": ["quiet", "noticing", "solo", "urban", "nature", "walking"],
+    "terrain": "any",
+    "movement": "gentle",
+    "cost": "free",
+    "equipment": [],
+    "requirements": [],
+    "steps": [
+      {"title": "Pick a nearby turnaround", "detail": "Choose a short permitted path you know, using a familiar well-lit route if it is dark. Plan to turn around before half your available time has passed."},
+      {"title": "Pause and notice", "detail": "Pause somewhere suitable near your chosen turnaround and remember three details. Stay aware of the path around you; use this part of the outing to observe before returning."},
+      {"title": "Look again on the return", "detail": "Return along the same route and find one detail you missed earlier. Finish by comparing how the two directions looked."}
+    ],
+    "takeaway": "A familiar route with one newly noticed detail."
+  },
+  {
+    "id": "green-edge-walk",
+    "title": "Explore a familiar green edge",
+    "description": "Follow a short section of an existing path beside greenery and notice where different textures meet.",
+    "semanticText": "Gentle nature walk in a familiar green space on an existing natural path. Quiet solo observation of edges, textures, leaves and ground, no collecting or species identification. Short outdoor microadventure in daylight, return along known route.",
+    "minMinutes": 12,
+    "idealMinutes": 25,
+    "tags": ["quiet", "noticing", "solo", "nature", "walking"],
+    "terrain": "natural",
+    "movement": "gentle",
+    "cost": "free",
+    "equipment": [],
+    "requirements": ["daylight", "green-space"],
+    "steps": [
+      {"title": "Choose a known path", "detail": "Use a short existing path in a familiar green space. Check the surface yourself, stay on permitted paths and choose a turnaround that leaves time to return."},
+      {"title": "Notice the edges", "detail": "Look for three transitions, such as leaf to bark, shade to light or path to grass. Observe from the path without touching or collecting."},
+      {"title": "Return with one detail", "detail": "Head back along the known route and choose the most interesting edge. Describe its two sides in one sentence."}
+    ],
+    "takeaway": "A one-sentence field note about two textures meeting."
+  },
+  {
+    "id": "three-viewpoints",
+    "title": "Frame three outdoor scenes",
+    "description": "Use a short walk to compose three different views, with no camera required.",
+    "semanticText": "Creative solo photography-style outdoor walk, framing scenes mentally or with an optional phone camera. Gentle familiar urban or nature route in daylight. Observe a wide view, medium scene and small detail. No portrait photography or specialist equipment needed.",
+    "minMinutes": 12,
+    "idealMinutes": 25,
+    "tags": ["quiet", "creative", "noticing", "solo", "urban", "nature", "walking"],
+    "terrain": "any",
+    "movement": "gentle",
+    "cost": "free",
+    "equipment": ["Phone camera (optional)"],
+    "requirements": ["daylight"],
+    "steps": [
+      {"title": "Choose a short loop or return path", "detail": "Pick a familiar route that fits your whole time budget. Plan three pauses in suitable places without blocking the path."},
+      {"title": "Compose three views", "detail": "Frame a wide scene, a medium view and a small detail with your eyes. If using a camera, focus on scenery and objects and respect others' privacy."},
+      {"title": "Choose your final frame", "detail": "Return to your starting point and pick the strongest of the three views. Give it a title, whether or not you took a photo."}
+    ],
+    "takeaway": "Three composed views and one favorite frame."
+  },
+  {
+    "id": "purposeful-loop",
+    "title": "Walk a small purposeful loop",
+    "description": "Use a familiar outdoor loop for a more energetic walk with one simple observation at the end.",
+    "semanticText": "Active brisk outdoor walk on a familiar paved route, urban or nature. More movement and energy, solo, no running or fitness claims, no equipment or spending. Short loop with easy return, self-chosen comfortable pace, can use familiar well-lit route after dark.",
+    "minMinutes": 15,
+    "idealMinutes": 30,
+    "tags": ["walking", "active", "solo", "urban", "nature"],
+    "terrain": "paved",
+    "movement": "active",
+    "cost": "free",
+    "equipment": [],
+    "requirements": [],
+    "steps": [
+      {"title": "Choose a loop you know", "detail": "Select a short familiar paved loop, or an out-and-back route, with a clear return. If it is dark, use a familiar well-lit route."},
+      {"title": "Move at your chosen pace", "detail": "Walk at a purposeful pace that feels comfortable to you. Adjust freely for crossings, other people and the path; there is no distance or speed target."},
+      {"title": "Finish with one observation", "detail": "Return with time to spare and pause somewhere suitable. Name one thing outside that you had not noticed before the walk."}
+    ],
+    "takeaway": "A completed local loop and one detail worth remembering."
+  },
+  {
+    "id": "companion-detail-swap",
+    "title": "Swap small discoveries",
+    "description": "Sit outdoors with someone you already know and compare the details each of you notices.",
+    "semanticText": "Social outdoor activity with a friend or companion, seated and no walking. Quiet conversation at a familiar doorstep, courtyard or existing outdoor seat, urban or nature. Creative noticing game, take turns sharing observations, no equipment or spending.",
+    "minMinutes": 8,
+    "idealMinutes": 20,
+    "tags": ["social", "quiet", "creative", "noticing", "urban", "nature", "no-walking", "doorstep"],
+    "terrain": "any",
+    "movement": "seated",
+    "cost": "free",
+    "equipment": [],
+    "requirements": ["companion"],
+    "steps": [
+      {"title": "Choose a shared spot", "detail": "With a willing companion, use a familiar outdoor spot where you can both stay comfortably. Choose something nearby to observe."},
+      {"title": "Take turns noticing", "detail": "Each person picks one detail without pointing it out immediately. Take turns describing it so the other can find it."},
+      {"title": "Trade the best discovery", "detail": "Each share one thing the other helped you notice. Give your shared view a title before you finish."}
+    ],
+    "takeaway": "Two different ways of seeing the same outdoor place."
+  },
+  {
+    "id": "companion-question-walk",
+    "title": "Take one question for a walk",
+    "description": "Share a short familiar walk with a companion and one light, open-ended conversation prompt.",
+    "semanticText": "Social gentle outdoor walk with a willing friend or companion. A familiar urban or nature route, no purchases, no destination, simple light conversation and noticing. Short walking microadventure, can use a familiar well-lit route after dark.",
+    "minMinutes": 15,
+    "idealMinutes": 30,
+    "tags": ["social", "walking", "urban", "nature"],
+    "terrain": "any",
+    "movement": "gentle",
+    "cost": "free",
+    "equipment": [],
+    "requirements": ["companion"],
+    "steps": [
+      {"title": "Agree on the route", "detail": "Choose a short familiar route and turnaround with a willing companion. Use a familiar well-lit route if it is dark and allow enough time to return."},
+      {"title": "Carry one light question", "detail": "Take turns answering: 'What ordinary place would you like to notice more?' Walk at a pace you both choose and keep attention on the route."},
+      {"title": "Find a shared detail", "detail": "On the way back, each point out one detail along the route. End by choosing a detail you both enjoyed noticing."}
+    ],
+    "takeaway": "A shared conversation and one small discovery from the route."
+  },
+  {
+    "id": "outdoor-memory-map",
+    "title": "Draw a place from memory",
+    "description": "Study one familiar outdoor view, then see which details make it into a simple memory map.",
+    "semanticText": "Quiet seated creative outdoor memory map activity, no walking. Study a familiar urban or nature view from a doorstep or existing outdoor seat. Optional paper and pencil, solo, sketch simple shapes from memory and compare with actual scene. No drawing skill needed.",
+    "minMinutes": 8,
+    "idealMinutes": 18,
+    "tags": ["quiet", "creative", "noticing", "solo", "urban", "nature", "no-walking", "doorstep"],
+    "terrain": "any",
+    "movement": "seated",
+    "cost": "free",
+    "equipment": ["Paper and pencil (optional)"],
+    "requirements": [],
+    "steps": [
+      {"title": "Study one view", "detail": "Stay at a familiar outdoor spot and pick a small view in front of you. Notice the positions of three to five fixed objects."},
+      {"title": "Rebuild it from memory", "detail": "Look down and sketch a few simple shapes, or describe their positions to yourself. Keep it rough; drawing skill is unnecessary."},
+      {"title": "Look back and compare", "detail": "Compare your map with the actual view. Add one overlooked detail and give the map a short place-inspired title."}
+    ],
+    "takeaway": "A rough memory map with one detail added after a second look."
+  }
+]

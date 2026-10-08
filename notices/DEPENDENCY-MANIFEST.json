@@ -1,0 +1,1621 @@
+{
+  "observedAt": "2026-10-08T01:22:04.357Z",
+  "note": "Exact dependency lock metadata and verbatim license files from installed packages. Optional platform packages in the lock may not be installed on this Mac. This source archive does not include node_modules or Node binaries.",
+  "node": {
+    "version": "v24.8.0",
+    "platform": "darwin",
+    "architecture": "arm64",
+    "required": ">=22",
+    "sourceUrl": "https://nodejs.org/download/release/v24.8.0/node-v24.8.0.tar.gz"
+  },
+  "manifests": [
+    {
+      "file": "package-lock.json",
+      "bytes": 34557,
+      "sha256": "49ebf4b11276853b26c436b3cf6f4662d5f36e6a409ecaa315dc1b0bd1bb31d4"
+    },
+    {
+      "file": "package.json",
+      "bytes": 605,
+      "sha256": "10bb6c1f745bbe88c987b4eb6b2137b4f2d78e0eff3fbb672a911ac1eaa38397"
+    }
+  ],
+  "directDependencies": {
+    "@huggingface/transformers": "4.3.1"
+  },
+  "lockfileVersion": 3,
+  "lockedPackageCount": 69,
+  "installedPackageCount": 44,
+  "packages": [
+    {
+      "path": "node_modules/@emnapi/runtime",
+      "name": "@emnapi/runtime",
+      "version": "1.11.3",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz",
+      "integrity": "sha512-Xz4Tpyki7XyrpbUK1jR1AhdAdaXyhhY4lZ3neLodmhpuWfy2PAQN5B46sAiU4liOXGLkHypn/qU+jvfWSCYYLA==",
+      "optional": true,
+      "os": null,
+      "cpu": null,
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@huggingface/jinja",
+      "name": "@huggingface/jinja",
+      "version": "0.5.10",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/@huggingface/jinja/-/jinja-0.5.10.tgz",
+      "integrity": "sha512-SgS1D1bglQ94ceD4ZCL6eayUDy9uV1xuyk61OjgSxU5GJh7upqZCKII0JoTYMc6wWsg3JUgaPRX0ElQzXPk3Cw==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@huggingface/jinja",
+        "version": "0.5.10",
+        "license": "MIT",
+        "repository": "https://github.com/huggingface/huggingface.js.git"
+      }
+    },
+    {
+      "path": "node_modules/@huggingface/tokenizers",
+      "name": "@huggingface/tokenizers",
+      "version": "0.2.0",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@huggingface/tokenizers/-/tokenizers-0.2.0.tgz",
+      "integrity": "sha512-LidMHe1FpcSYH4vcSjXooda34pC0M8m1gmDOv7SQi6Iv+ib1zX7J3sHBCC9/3FPCkn2k1b55FneVqMRxrr99pg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@huggingface/tokenizers",
+        "version": "0.2.0",
+        "license": "Apache-2.0",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/huggingface/tokenizers.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@huggingface/transformers",
+      "name": "@huggingface/transformers",
+      "version": "4.3.1",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@huggingface/transformers/-/transformers-4.3.1.tgz",
+      "integrity": "sha512-5+voSeUCFK6PCKlY15dPhNOKq3/zOTxDN7oC+Wy9dFb1QZ0TSQomZRRy7URRK8YRuUoE9fGMQTTPC5d/pWBJhA==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@huggingface/transformers",
+        "version": "4.3.1",
+        "license": "Apache-2.0",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/huggingface/transformers.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@img/colour",
+      "name": "@img/colour",
+      "version": "1.1.0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/@img/colour/-/colour-1.1.0.tgz",
+      "integrity": "sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@img/colour",
+        "version": "1.1.0",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/lovell/colour.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@img/sharp-darwin-arm64",
+      "name": "@img/sharp-darwin-arm64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-darwin-arm64/-/sharp-darwin-arm64-0.35.5.tgz",
+      "integrity": "sha512-QRUlFQ0WxvdWyqqG/WtI3iupfD5rBzmCHXSdPsY91sAtVtTo7Q4cb6zOccZ3gqEqkr0f1As1ehLqmEpDsRf+lg==",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "installed": true,
+      "installedMetadata": {
+        "name": "@img/sharp-darwin-arm64",
+        "version": "0.35.5",
+        "license": "Apache-2.0",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/lovell/sharp.git",
+          "directory": "npm/darwin-arm64"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@img/sharp-darwin-x64",
+      "name": "@img/sharp-darwin-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-darwin-x64/-/sharp-darwin-x64-0.35.5.tgz",
+      "integrity": "sha512-+BR255RhDlpygUpOc/Jdt1nT6DQ3XG/ERo5wbcdOf5Q320dKtPCKPLR1LJs9VGXRaMa8l1uUa0tkCNOXiAxZUw==",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-freebsd-wasm32",
+      "name": "@img/sharp-freebsd-wasm32",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-freebsd-wasm32/-/sharp-freebsd-wasm32-0.35.5.tgz",
+      "integrity": "sha512-Y/z91nEZ4uIBX5X3nfTovjU9lHNKFYbL2lpHCLVNmXQK03VIZvXBBt0KxbPGp2SdGSF+2mQU4e+hQaWOt86iAw==",
+      "optional": true,
+      "os": [
+        "freebsd"
+      ],
+      "cpu": null,
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-darwin-arm64",
+      "name": "@img/sharp-libvips-darwin-arm64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.3.4.tgz",
+      "integrity": "sha512-5R89nBYiRdUlSWJxPhO+GVtaXzXSxKnRu/xqMn3KTA3L9EB9Oy/P+Nn2f2vlhPuUdy/Zusb2DarbyTpGCfEDuw==",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "installed": true,
+      "installedMetadata": {
+        "name": "@img/sharp-libvips-darwin-arm64",
+        "version": "1.3.4",
+        "license": "LGPL-3.0-or-later",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/lovell/sharp-libvips.git",
+          "directory": "npm/darwin-arm64"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-darwin-x64",
+      "name": "@img/sharp-libvips-darwin-x64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-darwin-x64/-/sharp-libvips-darwin-x64-1.3.4.tgz",
+      "integrity": "sha512-iR2OKH80yi0U+dUplyh3/xdpFvps6YkCwsXenIJxqxR1v9o+xtKTGbS9H7cps+2Vxjc8B1j96p75NmTGjIhtpQ==",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-arm",
+      "name": "@img/sharp-libvips-linux-arm",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linux-arm/-/sharp-libvips-linux-arm-1.3.4.tgz",
+      "integrity": "sha512-LmRtTsOHuvM2+wlO2Db37dx5MiZhB0FvSunciw48YjdOkZz9KAiRbm8ujeMOA1INqmei5NapFxYEK1D1ZSidmw==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-arm64",
+      "name": "@img/sharp-libvips-linux-arm64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linux-arm64/-/sharp-libvips-linux-arm64-1.3.4.tgz",
+      "integrity": "sha512-Y3dgX/6lE2QhQb+Gxy0WZxfg9MEm/JBjamZpS2IklP7xIQoKN4hzAm7KcMVGtaVDt3neE9OKBC7vAfonA/Lr1A==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-ppc64",
+      "name": "@img/sharp-libvips-linux-ppc64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linux-ppc64/-/sharp-libvips-linux-ppc64-1.3.4.tgz",
+      "integrity": "sha512-Le6boB8Tai0Nis+gIxIpKx68UDVVIqdR8Tin5Yf1z2LJJQLDJvCDRqRu+jC2qCoD+eIomonmOwB4smBRxfVpYQ==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-riscv64",
+      "name": "@img/sharp-libvips-linux-riscv64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linux-riscv64/-/sharp-libvips-linux-riscv64-1.3.4.tgz",
+      "integrity": "sha512-aHkkIEHPRdQEegJN20MLmGtxYD9R2wQr3Cwpddnu5+YKMt6Uzax7S9h5gpZTo8wyrGuZSlfQ63OevL5mTyOC7Q==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "riscv64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-s390x",
+      "name": "@img/sharp-libvips-linux-s390x",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linux-s390x/-/sharp-libvips-linux-s390x-1.3.4.tgz",
+      "integrity": "sha512-ra/mB6MikESDUO7Yg+Mi95bFBb9GsObURuhnOv3OqknjGe9sZrG8tCe9q0xSIGrtLgvgw0gKnFWcK4blSgQOuQ==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "s390x"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linux-x64",
+      "name": "@img/sharp-libvips-linux-x64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linux-x64/-/sharp-libvips-linux-x64-1.3.4.tgz",
+      "integrity": "sha512-GJ//SSXbnwSDes02umB3nDJLFcQzw8a18V8fyhqr6tV515tOEMdImjjxj1AoafMRz56F3PHgftnj1QEKSU1zkw==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linuxmusl-arm64",
+      "name": "@img/sharp-libvips-linuxmusl-arm64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linuxmusl-arm64/-/sharp-libvips-linuxmusl-arm64-1.3.4.tgz",
+      "integrity": "sha512-hvulFwtjUcagsis6BBxHwGFwWoNZjgYmULGVrZcyfNbjA8hKILbRxGg15/7w5HDyXHXUos/j6baAWqnCyQ2DWA==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-libvips-linuxmusl-x64",
+      "name": "@img/sharp-libvips-linuxmusl-x64",
+      "version": "1.3.4",
+      "license": "LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-libvips-linuxmusl-x64/-/sharp-libvips-linuxmusl-x64-1.3.4.tgz",
+      "integrity": "sha512-6zXKeE/p39I1AmA3cJG35eyBGNqNddLnUXjhwBnsGjFPWqf5VKkDBEqaEkPDoTEtkxwi2vv8Tcr2mDyP4So7Fg==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-arm",
+      "name": "@img/sharp-linux-arm",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-linux-arm/-/sharp-linux-arm-0.35.5.tgz",
+      "integrity": "sha512-LEaXK2WdXVK5ykcw0buWyPMsmLLL2vpHLD6yrNSW+JGEL3BZPA4tpKN6iaMc4AxTTAoaX/sU1rOL51lcIz48ZQ==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-arm64",
+      "name": "@img/sharp-linux-arm64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-linux-arm64/-/sharp-linux-arm64-0.35.5.tgz",
+      "integrity": "sha512-LYVx5JTsOM2CBzmxreh+nl64/3H6Xb09iSLknqH47z2T2DFFxDeFLP5y4dJwe6H7uGQlHPyEEtIqyo3DYsRwdQ==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-ppc64",
+      "name": "@img/sharp-linux-ppc64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-linux-ppc64/-/sharp-linux-ppc64-0.35.5.tgz",
+      "integrity": "sha512-QVxAAq8evVRI9ia2vqgwrmWucn5Dfv+JdWzj75pD8omHLPSP7f8p20O8jxzjCcuCEQEOtYOZUmX1hkiZ0kdevA==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "ppc64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-riscv64",
+      "name": "@img/sharp-linux-riscv64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-linux-riscv64/-/sharp-linux-riscv64-0.35.5.tgz",
+      "integrity": "sha512-LtdreXguaavKODPIfzJ4kffx7UNt1omwtK0rch4EBbbSTXPnxWmYSayXdLJw0fJzQ97kHt1gL/yh4tvU+nCyRQ==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "riscv64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-s390x",
+      "name": "@img/sharp-linux-s390x",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-linux-s390x/-/sharp-linux-s390x-0.35.5.tgz",
+      "integrity": "sha512-UZasTOFiYzotTsGOCu42BfUzP6Tu6Do/947iRm1RsLKvlllxwGcn4RN27LibGWceix4Y+Pmw3jsnTcCQIgWjqA==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "s390x"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-linux-x64",
+      "name": "@img/sharp-linux-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-linux-x64/-/sharp-linux-x64-0.35.5.tgz",
+      "integrity": "sha512-SxFtLTeJInhAA9Q836kux2vZNeOBQEx658qvbboZScr0wIARym3IcGmW7KpVD5sbVg0Ojy+udFQdayYIZyoNog==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-linuxmusl-arm64",
+      "name": "@img/sharp-linuxmusl-arm64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-linuxmusl-arm64/-/sharp-linuxmusl-arm64-0.35.5.tgz",
+      "integrity": "sha512-9HbMclmI1zlNkFRs3z9/eBtDjfD0sGlrX1z6b1qwmiFY5ElDLh4BC0LPBdVp7z1DXFiKlIcznf+ZlsuZzLxQqg==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-linuxmusl-x64",
+      "name": "@img/sharp-linuxmusl-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-linuxmusl-x64/-/sharp-linuxmusl-x64-0.35.5.tgz",
+      "integrity": "sha512-4KOphqB035HrVdqLZfCgMzzERrQkkzOwRhl4OAkRO1YCldbaFjySXMaK534Mo0V+LndnlJk+sbUyLeU0ULyD1A==",
+      "optional": true,
+      "os": [
+        "linux"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-wasm32",
+      "name": "@img/sharp-wasm32",
+      "version": "0.35.5",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later AND MIT",
+      "resolved": "https://registry.npmjs.org/@img/sharp-wasm32/-/sharp-wasm32-0.35.5.tgz",
+      "integrity": "sha512-Ptsga1su4tQx+LLF1ECS9U6nz5kmrXKo6XVbtR48Ke3ZRxxgaWBu7IDtEe1quo8hiupwm6WFqxVlXaSf7IINGQ==",
+      "optional": true,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@img/sharp-wasm32",
+        "version": "0.35.5",
+        "license": "Apache-2.0 AND LGPL-3.0-or-later AND MIT",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/lovell/sharp.git",
+          "directory": "npm/wasm32"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@img/sharp-webcontainers-wasm32",
+      "name": "@img/sharp-webcontainers-wasm32",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/@img/sharp-webcontainers-wasm32/-/sharp-webcontainers-wasm32-0.35.5.tgz",
+      "integrity": "sha512-hfhF/FmoQyTUkA0bIKFOtw536BQSeBMe6BF6QyWlrPxT754+TFLaZ7sKKTfvvM0yJgKgaYTwnFCIZ/GuDw5SUA==",
+      "optional": true,
+      "os": null,
+      "cpu": [
+        "wasm32"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-win32-arm64",
+      "name": "@img/sharp-win32-arm64",
+      "version": "0.35.5",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-win32-arm64/-/sharp-win32-arm64-0.35.5.tgz",
+      "integrity": "sha512-X4t7g+7ZA5DKblCBEXGjUqqemj4vczING/5viFwAL8h4N3qYeyjwdCvRLHi4EdOUI+2Z7UFlp1VM+p/AuEtm6Q==",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-win32-ia32",
+      "name": "@img/sharp-win32-ia32",
+      "version": "0.35.5",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-win32-ia32/-/sharp-win32-ia32-0.35.5.tgz",
+      "integrity": "sha512-5Zm82LoBc43nhwNybZlG7Y1KO//Zhsn306fQl29ZOuStHLGTo3BWL83q3cznX0poxSAMuYL1On/BHBxkBeKr6A==",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "ia32"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@img/sharp-win32-x64",
+      "name": "@img/sharp-win32-x64",
+      "version": "0.35.5",
+      "license": "Apache-2.0 AND LGPL-3.0-or-later",
+      "resolved": "https://registry.npmjs.org/@img/sharp-win32-x64/-/sharp-win32-x64-0.35.5.tgz",
+      "integrity": "sha512-x76eH0vEiHlcMQu8Y8IenntaACtddpT6W0wmXtWrnKcnKI7ME5DdgqhAD6SEWOEl1v2zDvkZDhFA9KnURwpfqg==",
+      "optional": true,
+      "os": [
+        "win32"
+      ],
+      "cpu": [
+        "x64"
+      ],
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/@protobufjs/aspromise",
+      "name": "@protobufjs/aspromise",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/@protobufjs/aspromise/-/aspromise-1.1.2.tgz",
+      "integrity": "sha512-j+gKExEuLmKwvz3OgROXtrJ2UG2x8Ch2YZUxahh+s1F2HZ+wAceUNLkvy6zKCPVRkU++ZWQrdxsUeQXmcg4uoQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@protobufjs/aspromise",
+        "version": "1.1.2",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dcodeIO/protobuf.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@protobufjs/base64",
+      "name": "@protobufjs/base64",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/@protobufjs/base64/-/base64-1.1.2.tgz",
+      "integrity": "sha512-AZkcAA5vnN/v4PDqKyMR5lx7hZttPDgClv83E//FMNhR2TMcLUhfRUBHCmSl0oi9zMgDDqRUJkSxO3wm85+XLg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@protobufjs/base64",
+        "version": "1.1.2",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dcodeIO/protobuf.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@protobufjs/codegen",
+      "name": "@protobufjs/codegen",
+      "version": "2.0.5",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/@protobufjs/codegen/-/codegen-2.0.5.tgz",
+      "integrity": "sha512-zgXFLzW3Ap33e6d0Wlj4MGIm6Ce8O89n/apUaGNB/jx+hw+ruWEp7EwGUshdLKVRCxZW12fp9r40E1mQrf/34g==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@protobufjs/codegen",
+        "version": "2.0.5",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dcodeIO/protobuf.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@protobufjs/eventemitter",
+      "name": "@protobufjs/eventemitter",
+      "version": "1.1.1",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/@protobufjs/eventemitter/-/eventemitter-1.1.1.tgz",
+      "integrity": "sha512-vW1GmwMZNnL+gMRaovlh9yZX74kc+TTU3FObkkurpMaRtBfLP3ldjS9KQWlwZgraRE0+dheEEoAxdzcJQ8eXZg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@protobufjs/eventemitter",
+        "version": "1.1.1",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dcodeIO/protobuf.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@protobufjs/fetch",
+      "name": "@protobufjs/fetch",
+      "version": "1.1.1",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/@protobufjs/fetch/-/fetch-1.1.1.tgz",
+      "integrity": "sha512-GpptLrs57adMSuHi3VNj0mAF8dwh36LMaYF6XyJ6JMWlVsc+t42tm1HSEDmOs3A8fC9yyeisgLhsTVQokOZ0zw==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@protobufjs/fetch",
+        "version": "1.1.1",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dcodeIO/protobuf.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@protobufjs/float",
+      "name": "@protobufjs/float",
+      "version": "1.0.2",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/@protobufjs/float/-/float-1.0.2.tgz",
+      "integrity": "sha512-Ddb+kVXlXst9d+R9PfTIxh1EdNkgoRe5tOX6t01f1lYWOvJnSPDBlG241QLzcyPdoNTsblLUdujGSE4RzrTZGQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@protobufjs/float",
+        "version": "1.0.2",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dcodeIO/protobuf.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@protobufjs/path",
+      "name": "@protobufjs/path",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/@protobufjs/path/-/path-1.1.2.tgz",
+      "integrity": "sha512-6JOcJ5Tm08dOHAbdR3GrvP+yUUfkjG5ePsHYczMFLq3ZmMkAD98cDgcT2iA1lJ9NVwFd4tH/iSSoe44YWkltEA==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@protobufjs/path",
+        "version": "1.1.2",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dcodeIO/protobuf.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@protobufjs/pool",
+      "name": "@protobufjs/pool",
+      "version": "1.1.0",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/@protobufjs/pool/-/pool-1.1.0.tgz",
+      "integrity": "sha512-0kELaGSIDBKvcgS4zkjz1PeddatrjYcmMWOlAuAPwAeccUrPHdUqo/J6LiymHHEiJT5NrF1UVwxY14f+fy4WQw==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@protobufjs/pool",
+        "version": "1.1.0",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dcodeIO/protobuf.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@protobufjs/utf8",
+      "name": "@protobufjs/utf8",
+      "version": "1.1.2",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/@protobufjs/utf8/-/utf8-1.1.2.tgz",
+      "integrity": "sha512-b1UQwcEZ4yCnMCD8DAL1VlbvBJE9/IX4FTIp7BG1xYpf29SLazLSrqUkj4w7Y5y7cCVP6E5tcqqcI0xemPkHug==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@protobufjs/utf8",
+        "version": "1.1.2",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/protobufjs/protobuf.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/@types/node",
+      "name": "@types/node",
+      "version": "26.6.4",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/@types/node/-/node-26.6.4.tgz",
+      "integrity": "sha512-ldVPDCzj7fsaGZrLB0NuHuTvJcsNasysBAqMolr/cgxrLd1xbqxIr3XJiPnHHJUCxj5sNF1vnRj9aWnrVh5Jcg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "@types/node",
+        "version": "26.6.4",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "directory": "types/node"
+        }
+      }
+    },
+    {
+      "path": "node_modules/adm-zip",
+      "name": "adm-zip",
+      "version": "0.6.1",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/adm-zip/-/adm-zip-0.6.1.tgz",
+      "integrity": "sha512-Xwrja8nx9e5o2N1my4DsKCeKpdrnACyr1wtbPxBDgGzKzKyE9kRtBFA8mWldI+RVlD7CBZNWY/wQ2+ydwOR6kQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "adm-zip",
+        "version": "0.6.1",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/cthackers/adm-zip.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/define-data-property",
+      "name": "define-data-property",
+      "version": "1.1.4",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.4.tgz",
+      "integrity": "sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "define-data-property",
+        "version": "1.1.4",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/ljharb/define-data-property.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/define-properties",
+      "name": "define-properties",
+      "version": "1.2.1",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/define-properties/-/define-properties-1.2.1.tgz",
+      "integrity": "sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "define-properties",
+        "version": "1.2.1",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git://github.com/ljharb/define-properties.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/detect-libc",
+      "name": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz",
+      "integrity": "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "detect-libc",
+        "version": "2.1.2",
+        "license": "Apache-2.0",
+        "repository": {
+          "type": "git",
+          "url": "git://github.com/lovell/detect-libc.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/es-define-property",
+      "name": "es-define-property",
+      "version": "1.0.1",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz",
+      "integrity": "sha512-e3nRfgfUZ4rNGL232gUgX06QNyyez04KdjFrF+LTRoOXmrOgFKDg4BCdsjW8EnT69eqdYGmRpJwiPVYNrCaW3g==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "es-define-property",
+        "version": "1.0.1",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/ljharb/es-define-property.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/es-errors",
+      "name": "es-errors",
+      "version": "1.3.0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz",
+      "integrity": "sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "es-errors",
+        "version": "1.3.0",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/ljharb/es-errors.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/escape-string-regexp",
+      "name": "escape-string-regexp",
+      "version": "4.0.0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz",
+      "integrity": "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "escape-string-regexp",
+        "version": "4.0.0",
+        "license": "MIT",
+        "repository": "sindresorhus/escape-string-regexp"
+      }
+    },
+    {
+      "path": "node_modules/flatbuffers",
+      "name": "flatbuffers",
+      "version": "25.9.23",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/flatbuffers/-/flatbuffers-25.9.23.tgz",
+      "integrity": "sha512-MI1qs7Lo4Syw0EOzUl0xjs2lsoeqFku44KpngfIduHBYvzm8h2+7K8YMQh1JtVVVrUvhLpNwqVi4DERegUJhPQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "flatbuffers",
+        "version": "25.9.23",
+        "license": "Apache-2.0",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/google/flatbuffers.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/global-agent",
+      "name": "global-agent",
+      "version": "4.1.3",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/global-agent/-/global-agent-4.1.3.tgz",
+      "integrity": "sha512-KUJEViiuFT3I97t+GYMikLPJS2Lfo/S2F+DQuBWzuzaMPnvt5yyZePzArx36fBzpGTxZjIpDbXLeySLgh+k76g==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "global-agent",
+        "version": "4.1.3",
+        "license": "BSD-3-Clause",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/gajus/global-agent"
+        }
+      }
+    },
+    {
+      "path": "node_modules/globalthis",
+      "name": "globalthis",
+      "version": "1.0.4",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/globalthis/-/globalthis-1.0.4.tgz",
+      "integrity": "sha512-DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "globalthis",
+        "version": "1.0.4",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git://github.com/ljharb/System.global.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/gopd",
+      "name": "gopd",
+      "version": "1.2.0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz",
+      "integrity": "sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "gopd",
+        "version": "1.2.0",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/ljharb/gopd.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/guid-typescript",
+      "name": "guid-typescript",
+      "version": "1.0.9",
+      "license": "ISC",
+      "resolved": "https://registry.npmjs.org/guid-typescript/-/guid-typescript-1.0.9.tgz",
+      "integrity": "sha512-Y8T4vYhEfwJOTbouREvG+3XDsjr8E3kIr7uf+JZ0BYloFsttiHU0WfvANVsR7TxNUJa/WpCnw/Ino/p+DeBhBQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "guid-typescript",
+        "version": "1.0.9",
+        "license": "ISC",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/NicolasDeveloper/guid-typescript"
+        }
+      }
+    },
+    {
+      "path": "node_modules/has-property-descriptors",
+      "name": "has-property-descriptors",
+      "version": "1.0.2",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz",
+      "integrity": "sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "has-property-descriptors",
+        "version": "1.0.2",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/inspect-js/has-property-descriptors.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/long",
+      "name": "long",
+      "version": "5.3.2",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/long/-/long-5.3.2.tgz",
+      "integrity": "sha512-mNAgZ1GmyNhD7AuqnTG3/VQ26o760+ZYBPKjPvugO8+nLbYfX6TVpJPseBvopbdY+qpZ/lKUnmEc1LeZYS3QAA==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "long",
+        "version": "5.3.2",
+        "license": "Apache-2.0",
+        "repository": {
+          "type": "git",
+          "url": "https://github.com/dcodeIO/long.js.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/matcher",
+      "name": "matcher",
+      "version": "4.0.0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/matcher/-/matcher-4.0.0.tgz",
+      "integrity": "sha512-S6x5wmcDmsDRRU/c2dkccDwQPXoFczc5+HpQ2lON8pnvHlnvHAHj5WlLVvw6n6vNyHuVugYrFohYxbS+pvFpKQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "matcher",
+        "version": "4.0.0",
+        "license": "MIT",
+        "repository": "sindresorhus/matcher"
+      }
+    },
+    {
+      "path": "node_modules/object-keys",
+      "name": "object-keys",
+      "version": "1.1.1",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz",
+      "integrity": "sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "object-keys",
+        "version": "1.1.1",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git://github.com/ljharb/object-keys.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/onnxruntime-common",
+      "name": "onnxruntime-common",
+      "version": "1.30.0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/onnxruntime-common/-/onnxruntime-common-1.30.0.tgz",
+      "integrity": "sha512-7fdVWjAID1dVhH/G8qK3APARunV4VkBFoCQAP7qp4Wkab0mrorvmc+sqiT+mKXOzDqdjN5j+/Z9nb4gzNPWcyA==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "onnxruntime-common",
+        "version": "1.30.0",
+        "license": "MIT",
+        "repository": {
+          "url": "https://github.com/Microsoft/onnxruntime.git",
+          "type": "git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/onnxruntime-node",
+      "name": "onnxruntime-node",
+      "version": "1.30.0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/onnxruntime-node/-/onnxruntime-node-1.30.0.tgz",
+      "integrity": "sha512-twhs1C2C/BFkz1yc5OY0KIU2GUq6DURO7hD4bx5Q2Qy3nAMJwRXW8xU3NVczE29VA9lolLOYepoD8fjTGOfIqw==",
+      "optional": false,
+      "os": [
+        "win32",
+        "darwin",
+        "linux"
+      ],
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "onnxruntime-node",
+        "version": "1.30.0",
+        "license": "MIT",
+        "repository": {
+          "url": "https://github.com/Microsoft/onnxruntime.git",
+          "type": "git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/onnxruntime-web",
+      "name": "onnxruntime-web",
+      "version": "1.31.0-dev.20260914-8d85527a0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/onnxruntime-web/-/onnxruntime-web-1.31.0-dev.20260914-8d85527a0.tgz",
+      "integrity": "sha512-Iy7rtadoBgxS/LLvDr3QW38DB1PNXRnr0GJMcL0TAt7c9qjgVQl83UlGCVyeAnK2InpmW8Uc3PL8XIuqtDeF6g==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "onnxruntime-web",
+        "version": "1.31.0-dev.20260914-8d85527a0",
+        "license": "MIT",
+        "repository": {
+          "url": "https://github.com/Microsoft/onnxruntime.git",
+          "type": "git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/onnxruntime-web/node_modules/onnxruntime-common",
+      "name": "onnxruntime-common",
+      "version": "1.31.0-dev.20260911-2a43ec07e",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/onnxruntime-common/-/onnxruntime-common-1.31.0-dev.20260911-2a43ec07e.tgz",
+      "integrity": "sha512-gBuF6U32YErKIAt+yD7DeGBpjRxhJ1uJwako6ygjokSZULDU6Pd+KWComX8Tumk1hYVHRxjPj7mdMnD0ryAPOw==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "onnxruntime-common",
+        "version": "1.31.0-dev.20260911-2a43ec07e",
+        "license": "MIT",
+        "repository": {
+          "url": "https://github.com/Microsoft/onnxruntime.git",
+          "type": "git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/platform",
+      "name": "platform",
+      "version": "1.3.6",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/platform/-/platform-1.3.6.tgz",
+      "integrity": "sha512-fnWVljUchTro6RiCFvCXBbNhJc2NijN7oIQxbwsyL0buWJPG85v81ehlHI9fXrJsMNgTofEoWIQeClKpgxFLrg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "platform",
+        "version": "1.3.6",
+        "license": "MIT",
+        "repository": "bestiejs/platform.js"
+      }
+    },
+    {
+      "path": "node_modules/protobufjs",
+      "name": "protobufjs",
+      "version": "7.6.6",
+      "license": "BSD-3-Clause",
+      "resolved": "https://registry.npmjs.org/protobufjs/-/protobufjs-7.6.6.tgz",
+      "integrity": "sha512-dYDWdjSl5RNb7SgPxGQcRU+GtvP7s2fpkrY0r432PcOIaZ0/rBcxEZnQN67iJhFuQiVw754JDoPruPCNdGsbjg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "protobufjs",
+        "version": "7.6.6",
+        "license": "BSD-3-Clause",
+        "repository": "protobufjs/protobuf.js"
+      }
+    },
+    {
+      "path": "node_modules/semver",
+      "name": "semver",
+      "version": "7.8.5",
+      "license": "ISC",
+      "resolved": "https://registry.npmjs.org/semver/-/semver-7.8.5.tgz",
+      "integrity": "sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "semver",
+        "version": "7.8.5",
+        "license": "ISC",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/npm/node-semver.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/serialize-error",
+      "name": "serialize-error",
+      "version": "8.1.0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/serialize-error/-/serialize-error-8.1.0.tgz",
+      "integrity": "sha512-3NnuWfM6vBYoy5gZFvHiYsVbafvI9vZv/+jlIigFn4oP4zjNPK3LhcY0xSCgeb1a5L8jO71Mit9LlNoi2UfDDQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "serialize-error",
+        "version": "8.1.0",
+        "license": "MIT",
+        "repository": "sindresorhus/serialize-error"
+      }
+    },
+    {
+      "path": "node_modules/sharp",
+      "name": "sharp",
+      "version": "0.35.5",
+      "license": "Apache-2.0",
+      "resolved": "https://registry.npmjs.org/sharp/-/sharp-0.35.5.tgz",
+      "integrity": "sha512-Ywn4OnzGukp7CDMrp08RQ50YKmuwG47brZgIVPTvBaaAfQlRlygrRqSrxdCiL9M+LlzLBiJ68IR1QqvzHyjC7g==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "sharp",
+        "version": "0.35.5",
+        "license": "Apache-2.0",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/lovell/sharp.git"
+        }
+      }
+    },
+    {
+      "path": "node_modules/tslib",
+      "name": "tslib",
+      "version": "2.8.1",
+      "license": "0BSD",
+      "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz",
+      "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==",
+      "optional": true,
+      "os": null,
+      "cpu": null,
+      "installed": false,
+      "installedMetadata": null
+    },
+    {
+      "path": "node_modules/type-fest",
+      "name": "type-fest",
+      "version": "0.20.2",
+      "license": "(MIT OR CC0-1.0)",
+      "resolved": "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz",
+      "integrity": "sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "type-fest",
+        "version": "0.20.2",
+        "license": "(MIT OR CC0-1.0)",
+        "repository": "sindresorhus/type-fest"
+      }
+    },
+    {
+      "path": "node_modules/undici-types",
+      "name": "undici-types",
+      "version": "8.9.0",
+      "license": "MIT",
+      "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-8.9.0.tgz",
+      "integrity": "sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==",
+      "optional": false,
+      "os": null,
+      "cpu": null,
+      "installed": true,
+      "installedMetadata": {
+        "name": "undici-types",
+        "version": "8.9.0",
+        "license": "MIT",
+        "repository": {
+          "type": "git",
+          "url": "git+https://github.com/nodejs/undici.git"
+        }
+      }
+    }
+  ],
+  "copiedLicenseFiles": [
+    {
+      "source": "node_modules/@huggingface/jinja/LICENSE",
+      "noticeFile": "notices/licenses/npm/@huggingface/jinja/LICENSE",
+      "bytes": 1069,
+      "sha256": "d6e7b19451c1b3d1d66353bb4b1274138953b3bfd9ae60c56e77b1f548796982"
+    },
+    {
+      "source": "node_modules/@huggingface/tokenizers/LICENSE",
+      "noticeFile": "notices/licenses/npm/@huggingface/tokenizers/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "source": "node_modules/@huggingface/transformers/LICENSE",
+      "noticeFile": "notices/licenses/npm/@huggingface/transformers/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "node_modules/@img/colour/LICENSE.md",
+      "noticeFile": "notices/licenses/npm/@img/colour/LICENSE.md",
+      "bytes": 4433,
+      "sha256": "e2eaa4603c14cb26f301e88648c12a853fa3f0f5da6d4b0972958c666e7f2ab8"
+    },
+    {
+      "source": "node_modules/@img/sharp-darwin-arm64/LICENSE",
+      "noticeFile": "notices/licenses/npm/@img/sharp-darwin-arm64/LICENSE",
+      "bytes": 10273,
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+    },
+    {
+      "source": "node_modules/@img/sharp-wasm32/LICENSE",
+      "noticeFile": "notices/licenses/npm/@img/sharp-wasm32/LICENSE",
+      "bytes": 10273,
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+    },
+    {
+      "source": "node_modules/@protobufjs/aspromise/LICENSE",
+      "noticeFile": "notices/licenses/npm/@protobufjs/aspromise/LICENSE",
+      "bytes": 1505,
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "node_modules/@protobufjs/base64/LICENSE",
+      "noticeFile": "notices/licenses/npm/@protobufjs/base64/LICENSE",
+      "bytes": 1505,
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "node_modules/@protobufjs/codegen/LICENSE",
+      "noticeFile": "notices/licenses/npm/@protobufjs/codegen/LICENSE",
+      "bytes": 1505,
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "node_modules/@protobufjs/eventemitter/LICENSE",
+      "noticeFile": "notices/licenses/npm/@protobufjs/eventemitter/LICENSE",
+      "bytes": 1505,
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "node_modules/@protobufjs/fetch/LICENSE",
+      "noticeFile": "notices/licenses/npm/@protobufjs/fetch/LICENSE",
+      "bytes": 1505,
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "node_modules/@protobufjs/float/LICENSE",
+      "noticeFile": "notices/licenses/npm/@protobufjs/float/LICENSE",
+      "bytes": 1505,
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "node_modules/@protobufjs/path/LICENSE",
+      "noticeFile": "notices/licenses/npm/@protobufjs/path/LICENSE",
+      "bytes": 1505,
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "node_modules/@protobufjs/pool/LICENSE",
+      "noticeFile": "notices/licenses/npm/@protobufjs/pool/LICENSE",
+      "bytes": 1505,
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "node_modules/@protobufjs/utf8/LICENSE",
+      "noticeFile": "notices/licenses/npm/@protobufjs/utf8/LICENSE",
+      "bytes": 1505,
+      "sha256": "a67b34a24a5daddcce46aea68c5004e4442bbfb63690329fa607bf4de4269794"
+    },
+    {
+      "source": "node_modules/@types/node/LICENSE",
+      "noticeFile": "notices/licenses/npm/@types/node/LICENSE",
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "source": "node_modules/adm-zip/LICENSE",
+      "noticeFile": "notices/licenses/npm/adm-zip/LICENSE",
+      "bytes": 1106,
+      "sha256": "6bb5b2d4c07d793ca928daa63a8899c6914fafb5ac3aa04ec10cae07f3d57dca"
+    },
+    {
+      "source": "node_modules/define-data-property/LICENSE",
+      "noticeFile": "notices/licenses/npm/define-data-property/LICENSE",
+      "bytes": 1071,
+      "sha256": "b41d08bc3624d8c436fc80237d73ebb361985a67f4504bbcd703e5ca2b27254c"
+    },
+    {
+      "source": "node_modules/define-properties/LICENSE",
+      "noticeFile": "notices/licenses/npm/define-properties/LICENSE",
+      "bytes": 1080,
+      "sha256": "00d402c2bbe7c67369bd01ce2c16b8ed46ccc949a1ee2d6bb8f9606afa8c7434"
+    },
+    {
+      "source": "node_modules/detect-libc/LICENSE",
+      "noticeFile": "notices/licenses/npm/detect-libc/LICENSE",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "source": "node_modules/es-define-property/LICENSE",
+      "noticeFile": "notices/licenses/npm/es-define-property/LICENSE",
+      "bytes": 1071,
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+    },
+    {
+      "source": "node_modules/es-errors/LICENSE",
+      "noticeFile": "notices/licenses/npm/es-errors/LICENSE",
+      "bytes": 1071,
+      "sha256": "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292"
+    },
+    {
+      "source": "node_modules/escape-string-regexp/license",
+      "noticeFile": "notices/licenses/npm/escape-string-regexp/license",
+      "bytes": 1117,
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "source": "node_modules/flatbuffers/LICENSE",
+      "noticeFile": "notices/licenses/npm/flatbuffers/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "node_modules/global-agent/LICENSE",
+      "noticeFile": "notices/licenses/npm/global-agent/LICENSE",
+      "bytes": 1531,
+      "sha256": "2aabdab5d0ce03a7314def8222988c2da4ba593ae82ae312439e5e306001dbae"
+    },
+    {
+      "source": "node_modules/globalthis/LICENSE",
+      "noticeFile": "notices/licenses/npm/globalthis/LICENSE",
+      "bytes": 1081,
+      "sha256": "acfaf437865d82f0fa9b9cdcae8b550bed8d011adaa5b42d973191caf99f62a8"
+    },
+    {
+      "source": "node_modules/gopd/LICENSE",
+      "noticeFile": "notices/licenses/npm/gopd/LICENSE",
+      "bytes": 1071,
+      "sha256": "d90bf0a089da4cf43d644ed240a0b3825dcdb705e64e38371d56995a4cc9e4c5"
+    },
+    {
+      "source": "node_modules/has-property-descriptors/LICENSE",
+      "noticeFile": "notices/licenses/npm/has-property-descriptors/LICENSE",
+      "bytes": 1067,
+      "sha256": "0f0ca96f50793990031ebc488a38f7292ff70bce8ab6a8e5eeda674abc32ccdf"
+    },
+    {
+      "source": "node_modules/long/LICENSE",
+      "noticeFile": "notices/licenses/npm/long/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "source": "node_modules/matcher/license",
+      "noticeFile": "notices/licenses/npm/matcher/license",
+      "bytes": 1117,
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "source": "node_modules/object-keys/LICENSE",
+      "noticeFile": "notices/licenses/npm/object-keys/LICENSE",
+      "bytes": 1080,
+      "sha256": "5640e5cbe2e9f57f6ccfdd8dbfbeadb875495bdbcb69d2666ce3177ccd0942e4"
+    },
+    {
+      "source": "node_modules/platform/LICENSE",
+      "noticeFile": "notices/licenses/npm/platform/LICENSE",
+      "bytes": 1095,
+      "sha256": "4a161ebed4f1ef933e16ccfa00d86c718703f5d015a9987ea7ce1bb72a43cd22"
+    },
+    {
+      "source": "node_modules/protobufjs/LICENSE",
+      "noticeFile": "notices/licenses/npm/protobufjs/LICENSE",
+      "bytes": 1937,
+      "sha256": "49d6a1c9a623784c61c6cb70f773f3457faceb1914a13c8560a9823b7631950c"
+    },
+    {
+      "source": "node_modules/protobufjs/google/LICENSE",
+      "noticeFile": "notices/licenses/npm/protobufjs/google/LICENSE",
+      "bytes": 1476,
+      "sha256": "4ab87e6e3c0c0b78e47c77d49ec10c048f8a519fb8062e6e3217e3e6e9b0c6e9"
+    },
+    {
+      "source": "node_modules/semver/LICENSE",
+      "noticeFile": "notices/licenses/npm/semver/LICENSE",
+      "bytes": 765,
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b"
+    },
+    {
+      "source": "node_modules/serialize-error/license",
+      "noticeFile": "notices/licenses/npm/serialize-error/license",
+      "bytes": 1117,
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "source": "node_modules/sharp/LICENSE",
+      "noticeFile": "notices/licenses/npm/sharp/LICENSE",
+      "bytes": 10273,
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68"
+    },
+    {
+      "source": "node_modules/type-fest/license",
+      "noticeFile": "notices/licenses/npm/type-fest/license",
+      "bytes": 1116,
+      "sha256": "64a93ffc0a06a2266dbb57ed7ebe3b56ba66ab337b6347fabdbf86c76819fbae"
+    },
+    {
+      "source": "node_modules/undici-types/LICENSE",
+      "noticeFile": "notices/licenses/npm/undici-types/LICENSE",
+      "bytes": 1090,
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27"
+    }
+  ],
+  "additionalNotices": [
+    {
+      "file": "notices/licenses/onnxruntime/LICENSE",
+      "source": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.30.0/LICENSE",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "file": "notices/licenses/onnxruntime/ThirdPartyNotices.txt",
+      "source": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.30.0/ThirdPartyNotices.txt",
+      "bytes": 338088,
+      "sha256": "143764b952fdb1a7c69ce653bfba74a7744d6a8a573bfb73e235fba356c83de3"
+    },
+    {
+      "file": "notices/licenses/Apache-2.0.txt",
+      "source": "node_modules/@huggingface/transformers/LICENSE",
+      "appliesTo": "Apache-2.0 third-party dependencies and Apache-2.0 model; not an application license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  ],
+  "manifestHashesObservedAt": "2026-10-08T01:59:00.069Z"
+}

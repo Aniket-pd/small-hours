@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f3ea">
+  <meta name="description" content="Find a small outdoor adventure that fits the time you have. A private local prototype with curated activities and optional local AI ranking.">
+  <title>Small Hours — A little time outside</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231e3d32'/%3E%3Cpath d='M18 44C15 23 34 15 48 17c1 15-9 32-30 27Z' fill='%23e7efcd'/%3E%3Cpath d='m17 48 25-25' stroke='%231e3d32' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#planner">Skip to planner</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Small Hours home">
+        <svg class="brand-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M8 28C5 11 21 5 33 7c1 13-7 27-25 21Z" fill="currentColor"/><path d="M7 33 27 13" stroke="#f5f3ea" stroke-width="2.3" stroke-linecap="round"/></svg>
+        <span>small hours<span class="brand-dot">.</span></span>
+      </a>
+      <div class="header-right">
+        <a class="quiet-link" href="#how-it-works">The idea</a>
+        <div class="runtime-status" id="runtime-status" role="status" aria-live="polite"><span class="status-dot"></span><span id="runtime-label">Checking local model…</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="short-line"></span> LESS SCROLL. MORE STROLL.</p>
+          <h1 id="hero-title">A little time.<br>A little <em>outside.</em></h1>
+          <p class="hero-description">You don’t need a free afternoon. Find a small outdoor adventure for the time, energy, and place you have.</p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg class="garden-art" viewBox="0 0 440 276" fill="none">
+            <path d="M93 56c49-41 169-54 236 4 42 37 58 101 29 140-31 41-185 65-253 29C50 200 46 95 93 56Z" fill="#e8eddb"/>
+            <path d="M118 229c11-35 88-27 105-61 19-40-62-43-48-77 8-19 40-28 58-34" stroke="#f7f5ed" stroke-width="41" stroke-linecap="round"/>
+            <path d="M117 229c11-35 89-27 106-61 19-40-62-43-48-77 8-19 40-28 58-34" stroke="#b5bf9b" stroke-width="1.8" stroke-dasharray="4 7"/>
+            <circle cx="304" cy="60" r="29" fill="#e4a15c"/>
+            <path d="M88 177v-41m0 17c-22-2-27-16-28-30 18-1 27 9 28 30Zm0-14c20-1 28-16 28-30-20 0-28 12-28 30Z" fill="#44694b"/>
+            <path d="M313 214v-60m0 19c-31-3-38-21-39-42 27-1 38 15 39 42Zm0-22c28-1 39-23 39-43-28 0-39 17-39 43Z" fill="#28533f"/>
+            <path d="M356 202v-23m0 9c-14 0-17-9-18-16 12-1 17 6 18 16Zm0-4c12-1 17-11 17-18-11 0-17 8-17 18Z" fill="#779765"/>
+            <path d="m110 103 4-9m-19 14 2-8m181 114 3-9m-19 12 2-7m-20-109 3-7" stroke="#9aab80" stroke-width="2" stroke-linecap="round"/>
+            <path d="M223 151c0-9 7-16 16-16s16 7 16 16c0 12-16 25-16 25s-16-13-16-25Z" fill="#c75a36"/>
+            <circle cx="239" cy="151" r="5" fill="#fff9e9"/>
+            <path d="M279 94q5-6 10 0m0 0q5-6 10 0M127 61q4-5 8 0m0 0q4-5 8 0" stroke="#44694b" stroke-width="1.6" stroke-linecap="round"/>
+            <ellipse cx="91" cy="181" rx="23" ry="4" fill="#9dac81" opacity=".22"/>
+            <path d="M337 240c16-3 33-10 42-19" stroke="#c75a36" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="m376 220 5-1-1 6" stroke="#c75a36" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span class="art-note">a change of scenery<br>is closer than you think</span>
+          <span class="art-stamp">EST. JUST NOW</span>
+        </div>
+      </section>
+
+      <section class="planner-section" id="planner" aria-label="Build your small adventure">
+        <div class="planner-form-card">
+          <div class="section-heading"><span class="step-number">01</span><h2>What’s your window?</h2></div>
+          <form id="planner-form">
+            <label class="field-label" for="query">Tell us what sounds good</label>
+            <textarea id="query" name="query" rows="3" minlength="3" maxlength="600" required placeholder="A quiet break, a few interesting things to notice, and no special gear…" aria-describedby="query-help"></textarea>
+            <p class="field-help" id="query-help">No address needed. Use the controls below for firm limits.</p>
+
+            <fieldset class="time-fieldset">
+              <legend>Time, including your return</legend>
+              <div class="time-options">
+                <label><input type="radio" name="minutes" value="5"><span>5<span class="sr-only"> minutes</span></span></label>
+                <label><input type="radio" name="minutes" value="10"><span>10<span class="sr-only"> minutes</span></span></label>
+                <label><input type="radio" name="minutes" value="15" checked><span>15<span class="sr-only"> minutes</span></span></label>
+                <label><input type="radio" name="minutes" value="30"><span>30<span class="sr-only"> minutes</span></span></label>
+                <label><input type="radio" name="minutes" value="45"><span>45<span class="sr-only"> minutes</span></span></label>
+                <label><input type="radio" name="minutes" value="60"><span>60<span class="sr-only"> minutes</span></span></label>
+              </div>
+              <span class="minutes-caption">MINUTES</span>
+            </fieldset>
+
+            <div class="select-grid">
+              <div><label class="field-label" for="movement">Pace</label><select id="movement" name="movement"><option value="any">Anything goes</option><option value="gentle">Gentle movement</option><option value="seated">Stay seated</option></select></div>
+              <div><label class="field-label" for="setting">Surroundings</label><select id="setting" name="setting"><option value="any">Anywhere nearby</option><option value="urban">Streets &amp; buildings</option><option value="green">A little greenery</option></select></div>
+              <div><label class="field-label" for="company">Company</label><select id="company" name="company"><option value="solo">Just me</option><option value="together">With someone</option></select></div>
+              <div class="daylight-field"><label class="checkbox-label" for="daylight"><input type="checkbox" id="daylight" name="daylight" checked><span>It’s daylight</span></label></div>
+            </div>
+
+            <div id="fixture-notice" class="notice fixture-notice" hidden><strong>Fixture demo · no AI inference</strong><span>Try the interface with deterministic word matching. The local model is not being used.</span></div>
+            <div class="notice error-notice" id="form-error" role="alert" hidden></div>
+            <button class="primary-button" id="submit-button" type="submit" disabled><span id="submit-label">Find my small adventure</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button class="retry-button" id="retry-status" type="button" hidden>Retry connection</button>
+            <p class="privacy-note"><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><rect x="3.5" y="7" width="9" height="7" rx="1.5" stroke="currentColor"/><path d="M5.5 7V4.5a2.5 2.5 0 0 1 5 0V7" stroke="currentColor"/></svg> No account. No location permission. No saved inputs.</p>
+          </form>
+        </div>
+
+        <div class="plan-column" id="plan-column">
+          <div class="section-heading result-heading"><span class="step-number">02</span><h2>Your moment outside</h2><span class="little-label">GOOD THINGS, NEARBY</span></div>
+          <div class="empty-plan" id="empty-plan">
+            <div class="ticket-top"><span>ONE SMALL ADVENTURE</span><span>ADMIT YOU</span></div>
+            <div class="empty-illustration" aria-hidden="true"><svg viewBox="0 0 120 100" fill="none"><path d="M20 80h82" stroke="#a5ad99" stroke-width="1.4" stroke-linecap="round"/><path d="M49 80V41m0 17C30 57 23 45 23 32c17-1 26 10 26 26Zm0-12c20 0 30-16 30-31-21 0-30 14-30 31Z" fill="#54734e"/><path d="M79 79V61m0 8c-12 0-16-8-16-17 12 0 16 6 16 17Zm0-5c12 0 17-9 17-18-12 0-17 8-17 18Z" fill="#8eaa73"/><circle cx="99" cy="19" r="8" fill="#d9944f"/><path d="m16 67 2-5m85 10 2-5" stroke="#9aab80" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>A small plan.<br>A real change of scenery.</h3>
+            <p>Tell us what you have in mind.<br>We’ll find a simple way to step outside.</p>
+            <div class="empty-bottom"><span>No gear required to begin.</span><span class="ticket-spark" aria-hidden="true">✳</span></div>
+          </div>
+          <div id="plan-output" hidden>
+            <article class="result-card" id="result-card" aria-labelledby="plan-title" tabindex="-1"></article>
+            <div class="alternatives-section" id="alternatives-section" hidden><h3>Another way to spend it</h3><div id="alternatives" class="alternatives"></div></div>
+            <p class="ranking-note" id="ranking-note"></p>
+          </div>
+          <p id="plan-announcement" class="sr-only" role="status" aria-live="polite"></p>
+          <div class="place-note"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 18s6-5.3 6-10A6 6 0 0 0 4 8c0 4.7 6 10 6 10Z" stroke="currentColor" stroke-width="1.3"/><circle cx="10" cy="8" r="2" stroke="currentColor" stroke-width="1.3"/></svg><p><strong>You know the place. We’ll bring the idea.</strong> Choose somewhere familiar and reachable. Plans use curated activity types, not live venue listings.</p></div>
+        </div>
+      </section>
+
+      <section class="how-section" id="how-it-works" aria-labelledby="how-title">
+        <p class="eyebrow">THE IDEA IS SIMPLE</p><h2 id="how-title">A good break doesn’t need a big plan.</h2>
+        <div class="how-grid"><div><span class="how-number">01 /</span><h3>Start with what you have.</h3><p>Five minutes or a whole hour. A nearby bench or a familiar street. There’s room for small.</p></div><div><span class="how-number">02 /</span><h3>Find an idea that fits.</h3><p>Your preferences help rank a curated collection of simple activities. Time and pace shape the plan.</p></div><div><span class="how-number">03 /</span><h3>Take it outside.</h3><p>Keep the short plan in your pocket, put your screen away, and notice something you might have missed.</p></div></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><p>Made for the time between things.</p><div><span>Private local prototype</span><span class="footer-divider">·</span><span>AI-assisted creation</span></div><p class="fine-print">Activity suggestions are not health advice or guarantees about access, weather, or surroundings. Use your judgment and choose a place you know.</p></footer>
+  </div>
+
+  <dialog id="pocket-dialog" class="pocket-dialog" aria-labelledby="pocket-title">
+    <div class="dialog-top"><span class="eyebrow">SMALL HOURS / POCKET PLAN</span><button type="button" class="icon-button" id="close-pocket" aria-label="Close pocket plan"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></button></div>
+    <div id="pocket-content"></div>
+    <div class="pocket-actions"><button type="button" class="primary-button" id="download-pocket">Download text <span aria-hidden="true">↓</span></button><button type="button" class="secondary-button" id="print-pocket">Print plan</button></div>
+    <p class="pocket-footnote">Choose a familiar place. Leave time to return. Enjoy the little things.</p>
+  </dialog>
+</body>
+</html>

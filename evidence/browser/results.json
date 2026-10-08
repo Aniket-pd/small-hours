@@ -1,0 +1,145 @@
+{
+  "verifiedAt": "2026-10-08T01:25:19.415Z",
+  "result": "PASS",
+  "browser": "154.0.8037.98",
+  "testingTool": "Playwright 1.58.2 (existing local installation)",
+  "localModel": true,
+  "desktopAccess": false,
+  "results": [
+    {
+      "name": "actual local-model readiness and honest empty state",
+      "passed": true
+    },
+    {
+      "name": "empty input uses native validation without a planner request",
+      "passed": true
+    },
+    {
+      "name": "whitespace input announces an error and preserves query focus",
+      "passed": true
+    },
+    {
+      "name": "real MiniLM plan appears with constraints, budget, timeline and focus",
+      "passed": true,
+      "chosen": "wildlife-watch"
+    },
+    {
+      "name": "alternative selection replaces the plan and moves focus",
+      "passed": true
+    },
+    {
+      "name": "real text download matches the selected plan and model provenance",
+      "passed": true
+    },
+    {
+      "name": "native pocket dialog prevents focus entering underlying controls, Escape restores it, print CSS isolates the plan",
+      "passed": true,
+      "focusSequence": [
+        {
+          "tag": "BUTTON",
+          "id": "download-pocket",
+          "withinDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "print-pocket",
+          "withinDialog": true
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "withinDialog": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "close-pocket",
+          "withinDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "download-pocket",
+          "withinDialog": true
+        },
+        {
+          "tag": "BUTTON",
+          "id": "print-pocket",
+          "withinDialog": true
+        }
+      ]
+    },
+    {
+      "name": "editing constraints invalidates old plan and export controls",
+      "passed": true
+    },
+    {
+      "name": "combined no-walking, solo, dark, urban and 5-minute limits hold in live inference",
+      "passed": true
+    },
+    {
+      "name": "small runtime and constraint labels meet 4.5:1 contrast in computed browser styles",
+      "passed": true,
+      "contrast": [
+        {
+          "selector": ".runtime-status",
+          "ratio": 4.757381690364739
+        },
+        {
+          "selector": ".applied-note",
+          "ratio": 5.390235760651209
+        }
+      ]
+    },
+    {
+      "name": "keyboard radios, named fields, result announcements and error semantics work",
+      "passed": true
+    },
+    {
+      "name": "mocked no-match response shows an honest error and restores controls",
+      "passed": true
+    },
+    {
+      "name": "mocked failed request returns a readable error and restores controls",
+      "passed": true
+    },
+    {
+      "name": "responsive 1440px layout and pocket dialog stay within viewport",
+      "passed": true
+    },
+    {
+      "name": "responsive 768px layout and pocket dialog stay within viewport",
+      "passed": true
+    },
+    {
+      "name": "responsive 390px layout and pocket dialog stay within viewport",
+      "passed": true
+    },
+    {
+      "name": "responsive 320px layout and pocket dialog stay within viewport",
+      "passed": true
+    },
+    {
+      "name": "planner leaves no cookies, localStorage or sessionStorage",
+      "passed": true
+    },
+    {
+      "name": "fixture mode stays honestly labeled in interface, result and actual download",
+      "passed": true
+    },
+    {
+      "name": "short actual local-model demo recording saved without desktop access",
+      "passed": true
+    },
+    {
+      "name": "zero page errors and zero external page requests",
+      "passed": true
+    }
+  ],
+  "pageErrors": [],
+  "blockedExternalRequests": [],
+  "limitations": [
+    "No physical-device or screen-reader trial.",
+    "No outdoor field test.",
+    "No-match and network-error UI branches use explicit local mocks.",
+    "Recording demonstrates local app use only; no hosted or submitted entry."
+  ]
+}

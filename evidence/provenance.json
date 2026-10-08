@@ -1,0 +1,340 @@
+{
+  "observedAt": "2026-10-08T01:59:00.115Z",
+  "method": "Node fs.stat birthtime/mtime/ctime and SHA-256 of existing source files. No source files or their timestamps are altered by this capture.",
+  "limitations": "Local filesystem timestamps support chronology; they are not independent proof of authorship or contest eligibility. A copied or extracted archive may receive different birthtimes. Hashes identify this snapshot.",
+  "project": {
+    "name": "touch-grass-local",
+    "private": true,
+    "recordedSourceFileCount": 30,
+    "earliestSourceBirthtime": "2026-10-08T01:05:21.237Z",
+    "latestSourceBirthtime": "2026-10-08T01:56:59.355Z",
+    "sourceCreationDatesUTC": [
+      "2026-10-08"
+    ],
+    "allRecordedBirthtimeDatesMatch20261008": true,
+    "statedChallengeDateWindow": "2026-10-05 through 2026-10-11",
+    "dateWindowNote": "Stated challenge calendar window; official timezone/deadline is documented separately in docs/RULES.md."
+  },
+  "git": {
+    "isGitRepository": true,
+    "check": "git rev-parse --show-toplevel",
+    "exitCode": 0,
+    "metadataDirectoryBirthtime": "2026-10-08T01:37:58.608Z",
+    "branch": "main",
+    "hasCommit": false,
+    "headCommit": null,
+    "remoteNames": [],
+    "note": "Git repository exists at observation."
+  },
+  "runtime": {
+    "node": "v24.8.0",
+    "platform": "darwin",
+    "architecture": "arm64"
+  },
+  "dependencies": {
+    "lockfileVersion": 3,
+    "direct": {
+      "@huggingface/transformers": "4.3.1"
+    },
+    "manifest": "notices/DEPENDENCY-MANIFEST.json",
+    "manifestHashes": [
+      {
+        "file": "package-lock.json",
+        "bytes": 34557,
+        "sha256": "49ebf4b11276853b26c436b3cf6f4662d5f36e6a409ecaa315dc1b0bd1bb31d4"
+      },
+      {
+        "file": "package.json",
+        "bytes": 605,
+        "sha256": "10bb6c1f745bbe88c987b4eb6b2137b4f2d78e0eff3fbb672a911ac1eaa38397"
+      }
+    ]
+  },
+  "model": {
+    "source": "sentence-transformers/all-MiniLM-L6-v2",
+    "derivativeRepository": "Xenova/all-MiniLM-L6-v2",
+    "derivativeRevision": "751bff37182d3f1213fa05d7196b954e230abad9",
+    "license": "Apache-2.0",
+    "weightsFile": "onnx/model_quantized.onnx",
+    "weightsBytes": 22972370,
+    "weightsSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+    "localWeightsHashedAtThisObservation": true,
+    "matchesRecordedDownloadManifest": true,
+    "recordedModelDownloadAt": "2026-10-08T01:08:27.510Z",
+    "sourceCardEvidence": "notices/model/UPSTREAM-ONNX-MODEL-CARD.md",
+    "completeModelFileManifest": "notices/model/MODEL-MANIFEST.json",
+    "originNote": "Derivative card identifies the source model but not the historical source revision used for conversion. No source-revision claim is inferred."
+  },
+  "sourceFiles": [
+    {
+      "file": "LICENSE",
+      "bytes": 1066,
+      "sha256": "5e577c6f08c2a7e255c7ff4165e455fcf116acaaae2a7e2634209d11ea5d05c9",
+      "birthtime": "2026-10-08T01:56:59.355Z",
+      "birthtimeMs": 1791424619354.8591,
+      "mtime": "2026-10-08T01:56:59.355Z",
+      "ctime": "2026-10-08T01:56:59.355Z"
+    },
+    {
+      "file": "README.md",
+      "bytes": 6351,
+      "sha256": "22ca982e3adcd9968842601dc4f072212fb0827da6c70f22c25053ac26cbeb66",
+      "birthtime": "2026-10-08T01:09:28.205Z",
+      "birthtimeMs": 1791421768204.6638,
+      "mtime": "2026-10-08T01:56:59.972Z",
+      "ctime": "2026-10-08T01:56:59.972Z"
+    },
+    {
+      "file": "data/activities.json",
+      "bytes": 21752,
+      "sha256": "d7b30ec830b3ba8e8b6057b5f2bd217646d54c9f5693d89a5b021df3258bea1d",
+      "birthtime": "2026-10-08T01:07:51.378Z",
+      "birthtimeMs": 1791421671377.8652,
+      "mtime": "2026-10-08T01:11:39.569Z",
+      "ctime": "2026-10-08T01:11:39.569Z"
+    },
+    {
+      "file": "docs/ATTRIBUTION.md",
+      "bytes": 4380,
+      "sha256": "dc5323d84a2bd71bc95d64569278ece61d7dafadd2f0bd3cf5babb0279f9587a",
+      "birthtime": "2026-10-08T01:05:46.418Z",
+      "birthtimeMs": 1791421546418.116,
+      "mtime": "2026-10-08T01:57:00.529Z",
+      "ctime": "2026-10-08T01:57:00.529Z"
+    },
+    {
+      "file": "docs/DATASET.md",
+      "bytes": 3397,
+      "sha256": "0808e79a98c4c6823b6a7657d471344dadff1c229d0f6d2e4dee38cf761c6eed",
+      "birthtime": "2026-10-08T01:07:51.928Z",
+      "birthtimeMs": 1791421671927.9712,
+      "mtime": "2026-10-08T01:07:51.928Z",
+      "ctime": "2026-10-08T01:07:51.928Z"
+    },
+    {
+      "file": "docs/DISCOVERY.md",
+      "bytes": 1465,
+      "sha256": "06edf3e9abfbfc7725cba0d36d34a2b411d84239a2403937b4b36cfdfe007c42",
+      "birthtime": "2026-10-08T01:09:28.754Z",
+      "birthtimeMs": 1791421768753.8198,
+      "mtime": "2026-10-08T01:09:28.754Z",
+      "ctime": "2026-10-08T01:09:28.754Z"
+    },
+    {
+      "file": "docs/MODEL-SPIKE.md",
+      "bytes": 6870,
+      "sha256": "607868d74b7d31294309a14370030a77954994fc6fe7d33592e8823976787864",
+      "birthtime": "2026-10-08T01:11:51.304Z",
+      "birthtimeMs": 1791421911303.6838,
+      "mtime": "2026-10-08T01:11:51.304Z",
+      "ctime": "2026-10-08T01:11:51.304Z"
+    },
+    {
+      "file": "docs/RULES.md",
+      "bytes": 3829,
+      "sha256": "81ccbd6fdec28e3195a549dabaeeea4ab9ca00d27793ea994264fa6dfdaa4556",
+      "birthtime": "2026-10-08T01:05:45.611Z",
+      "birthtimeMs": 1791421545610.9573,
+      "mtime": "2026-10-08T01:57:01.354Z",
+      "ctime": "2026-10-08T01:57:01.354Z"
+    },
+    {
+      "file": "docs/SUBMISSION-DRAFT.md",
+      "bytes": 7468,
+      "sha256": "28852fe207f9312d27ccc273ebae5d158f8f81c8650efaa4e80f6e1ed169771c",
+      "birthtime": "2026-10-08T01:09:39.833Z",
+      "birthtimeMs": 1791421779832.8171,
+      "mtime": "2026-10-08T01:58:59.566Z",
+      "ctime": "2026-10-08T01:58:59.566Z"
+    },
+    {
+      "file": "docs/THIRD-PARTY-NOTICES.md",
+      "bytes": 6536,
+      "sha256": "f0463964cf969f21a9fddd3e40a70ca43b3b00b51823e4ca92e277c0885cd45c",
+      "birthtime": "2026-10-08T01:22:45.769Z",
+      "birthtimeMs": 1791422565769.0137,
+      "mtime": "2026-10-08T01:57:01.107Z",
+      "ctime": "2026-10-08T01:57:01.107Z"
+    },
+    {
+      "file": "docs/VALIDATION.md",
+      "bytes": 6904,
+      "sha256": "67fa2cdf4d5bc526b9c5802bdb4bcc7bc9843b136e4e0824ae24b18482c065d0",
+      "birthtime": "2026-10-08T01:15:33.601Z",
+      "birthtimeMs": 1791422133601.0723,
+      "mtime": "2026-10-08T01:57:01.354Z",
+      "ctime": "2026-10-08T01:57:01.354Z"
+    },
+    {
+      "file": "notices/record-provenance.mjs",
+      "bytes": 5903,
+      "sha256": "0249d52210d80308d139c2f47b275d522ea754de0507c1dd95b6dfd11ddc9feb",
+      "birthtime": "2026-10-08T01:24:38.604Z",
+      "birthtimeMs": 1791422678603.6848,
+      "mtime": "2026-10-08T01:57:01.355Z",
+      "ctime": "2026-10-08T01:57:01.355Z"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 34557,
+      "sha256": "49ebf4b11276853b26c436b3cf6f4662d5f36e6a409ecaa315dc1b0bd1bb31d4",
+      "birthtime": "2026-10-08T01:06:02.708Z",
+      "birthtimeMs": 1791421562707.6616,
+      "mtime": "2026-10-08T01:57:01.354Z",
+      "ctime": "2026-10-08T01:57:01.354Z"
+    },
+    {
+      "file": "package.json",
+      "bytes": 605,
+      "sha256": "10bb6c1f745bbe88c987b4eb6b2137b4f2d78e0eff3fbb672a911ac1eaa38397",
+      "birthtime": "2026-10-08T01:05:21.237Z",
+      "birthtimeMs": 1791421521236.9797,
+      "mtime": "2026-10-08T01:57:01.353Z",
+      "ctime": "2026-10-08T01:57:01.353Z"
+    },
+    {
+      "file": "public/app.js",
+      "bytes": 13395,
+      "sha256": "9735c05ee0024d8aefd7d56a6130db32a6c80a93746bd20de60d43f58bf02444",
+      "birthtime": "2026-10-08T01:10:12.625Z",
+      "birthtimeMs": 1791421812625.4922,
+      "mtime": "2026-10-08T01:12:48.081Z",
+      "ctime": "2026-10-08T01:12:48.081Z"
+    },
+    {
+      "file": "public/index.html",
+      "bytes": 12085,
+      "sha256": "392c75c9735461f291c2d973e25d5b4fed701b0ffd19d18ceaeb79100df8bfde",
+      "birthtime": "2026-10-08T01:10:12.621Z",
+      "birthtimeMs": 1791421812621.1472,
+      "mtime": "2026-10-08T01:11:22.672Z",
+      "ctime": "2026-10-08T01:11:22.672Z"
+    },
+    {
+      "file": "public/styles.css",
+      "bytes": 17873,
+      "sha256": "430024d9d1a1f68cefbf4b5fd7787e609061feee0a241b8b69c20c26fa65b10e",
+      "birthtime": "2026-10-08T01:10:12.623Z",
+      "birthtimeMs": 1791421812623.3005,
+      "mtime": "2026-10-08T01:22:42.626Z",
+      "ctime": "2026-10-08T01:22:42.626Z"
+    },
+    {
+      "file": "scripts/fetch-model.mjs",
+      "bytes": 2435,
+      "sha256": "4494f1a2b7cdc5eb4b50e71b7b2db57e33ff8f614805b076ea979915817717a1",
+      "birthtime": "2026-10-08T01:07:04.895Z",
+      "birthtimeMs": 1791421624895.0925,
+      "mtime": "2026-10-08T01:07:04.895Z",
+      "ctime": "2026-10-08T01:07:04.895Z"
+    },
+    {
+      "file": "scripts/verify-api.mjs",
+      "bytes": 2766,
+      "sha256": "eb4b3a47e8bd38ce8eda5a97a5d147cefad6d11befb29ed247c9c7018bbe69b3",
+      "birthtime": "2026-10-08T01:10:25.330Z",
+      "birthtimeMs": 1791421825329.7583,
+      "mtime": "2026-10-08T01:15:33.045Z",
+      "ctime": "2026-10-08T01:15:33.045Z"
+    },
+    {
+      "file": "scripts/verify-browser.mjs",
+      "bytes": 17697,
+      "sha256": "f2903df28eaa76cc0ce6f6f4f35ebc5bad1f2135f675797557b030b157f7737f",
+      "birthtime": "2026-10-08T01:22:43.485Z",
+      "birthtimeMs": 1791422563485.01,
+      "mtime": "2026-10-08T01:24:56.453Z",
+      "ctime": "2026-10-08T01:24:56.453Z"
+    },
+    {
+      "file": "scripts/verify-model.mjs",
+      "bytes": 3082,
+      "sha256": "7c9e1c28b330765ac52f540e1521a1f4dd471d165ab208f9b11e27810a30de9c",
+      "birthtime": "2026-10-08T01:07:05.442Z",
+      "birthtimeMs": 1791421625442.237,
+      "mtime": "2026-10-08T01:10:51.072Z",
+      "ctime": "2026-10-08T01:10:51.072Z"
+    },
+    {
+      "file": "src/discovery.mjs",
+      "bytes": 2215,
+      "sha256": "44a213e8e876851e1d49b7ff56c8d2bb1d69ac24aa460fee6680849459aa83d6",
+      "birthtime": "2026-10-08T01:06:33.277Z",
+      "birthtimeMs": 1791421593277.485,
+      "mtime": "2026-10-08T01:11:38.992Z",
+      "ctime": "2026-10-08T01:11:38.992Z"
+    },
+    {
+      "file": "src/model-config.mjs",
+      "bytes": 853,
+      "sha256": "6e56f57f2abcdf44337adc5b57c436da0e4e7715e20290cea831a79a0e7e6eb4",
+      "birthtime": "2026-10-08T01:07:03.633Z",
+      "birthtimeMs": 1791421623632.5337,
+      "mtime": "2026-10-08T01:07:03.633Z",
+      "ctime": "2026-10-08T01:07:03.633Z"
+    },
+    {
+      "file": "src/model.mjs",
+      "bytes": 6152,
+      "sha256": "d3f938c71b8752f608b9acdf4b165f1d2d4252b995ed7affa1b035d2d60471c9",
+      "birthtime": "2026-10-08T01:07:04.157Z",
+      "birthtimeMs": 1791421624157.3713,
+      "mtime": "2026-10-08T01:11:50.761Z",
+      "ctime": "2026-10-08T01:11:50.761Z"
+    },
+    {
+      "file": "src/planner.mjs",
+      "bytes": 7088,
+      "sha256": "df75c4aacf1e7a31afdef4ec7fc5bed292460ef9fd636fcf56feecd6bb11cdd9",
+      "birthtime": "2026-10-08T01:06:32.744Z",
+      "birthtimeMs": 1791421592743.523,
+      "mtime": "2026-10-08T01:14:27.892Z",
+      "ctime": "2026-10-08T01:14:27.892Z"
+    },
+    {
+      "file": "src/server.mjs",
+      "bytes": 5497,
+      "sha256": "5508615f1b894c92b84aee499ad0ca46b443a872bc760cb3e6b79b65f4f03e30",
+      "birthtime": "2026-10-08T01:07:20.449Z",
+      "birthtimeMs": 1791421640448.9895,
+      "mtime": "2026-10-08T01:11:38.449Z",
+      "ctime": "2026-10-08T01:11:38.449Z"
+    },
+    {
+      "file": "tests/discovery.test.mjs",
+      "bytes": 4882,
+      "sha256": "bdcbb90147fd737fff4c82e6f6605eae08d8913192494e7d9108682331f7a88c",
+      "birthtime": "2026-10-08T01:10:54.741Z",
+      "birthtimeMs": 1791421854741.3782,
+      "mtime": "2026-10-08T01:11:37.200Z",
+      "ctime": "2026-10-08T01:11:37.200Z"
+    },
+    {
+      "file": "tests/model.test.mjs",
+      "bytes": 1404,
+      "sha256": "8e6b26e3acd65bc3510b2d60ff9090d84226d2b400360fb60e4956a03c76382f",
+      "birthtime": "2026-10-08T01:10:52.082Z",
+      "birthtimeMs": 1791421852082.4246,
+      "mtime": "2026-10-08T01:10:52.083Z",
+      "ctime": "2026-10-08T01:10:52.083Z"
+    },
+    {
+      "file": "tests/planner.test.mjs",
+      "bytes": 8981,
+      "sha256": "ba9e8cc0cccb455a1cbc1cf774af07dbe601592b0522f63f411fc6258459aca9",
+      "birthtime": "2026-10-08T01:10:53.988Z",
+      "birthtimeMs": 1791421853987.8157,
+      "mtime": "2026-10-08T01:14:28.432Z",
+      "ctime": "2026-10-08T01:14:28.432Z"
+    },
+    {
+      "file": "tests/server.test.mjs",
+      "bytes": 10658,
+      "sha256": "23d70322574ea34207d098ec694d303962a6f764de5673bd022126aada2ca666",
+      "birthtime": "2026-10-08T01:10:55.314Z",
+      "birthtimeMs": 1791421855313.916,
+      "mtime": "2026-10-08T01:11:36.671Z",
+      "ctime": "2026-10-08T01:11:36.671Z"
+    }
+  ]
+}
