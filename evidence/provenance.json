@@ -1,5 +1,5 @@
 {
-  "observedAt": "2026-10-08T01:59:00.115Z",
+  "observedAt": "2026-10-08T02:04:09.262Z",
   "method": "Node fs.stat birthtime/mtime/ctime and SHA-256 of existing source files. No source files or their timestamps are altered by this capture.",
   "limitations": "Local filesystem timestamps support chronology; they are not independent proof of authorship or contest eligibility. A copied or extracted archive may receive different birthtimes. Hashes identify this snapshot.",
   "project": {
@@ -21,9 +21,11 @@
     "exitCode": 0,
     "metadataDirectoryBirthtime": "2026-10-08T01:37:58.608Z",
     "branch": "main",
-    "hasCommit": false,
-    "headCommit": null,
-    "remoteNames": [],
+    "hasCommit": true,
+    "headCommit": "dd1aa0b8c4738bdfb4ccc7807492c1067d86d235",
+    "remoteNames": [
+      "origin"
+    ],
     "note": "Git repository exists at observation."
   },
   "runtime": {
@@ -140,12 +142,12 @@
     },
     {
       "file": "docs/SUBMISSION-DRAFT.md",
-      "bytes": 7468,
-      "sha256": "28852fe207f9312d27ccc273ebae5d158f8f81c8650efaa4e80f6e1ed169771c",
+      "bytes": 7521,
+      "sha256": "8368c16f3554d85fb427a8162b3854ba702a15e5c3e012407aa28b77f4bb10ff",
       "birthtime": "2026-10-08T01:09:39.833Z",
       "birthtimeMs": 1791421779832.8171,
-      "mtime": "2026-10-08T01:58:59.566Z",
-      "ctime": "2026-10-08T01:58:59.566Z"
+      "mtime": "2026-10-08T02:04:08.907Z",
+      "ctime": "2026-10-08T02:04:08.907Z"
     },
     {
       "file": "docs/THIRD-PARTY-NOTICES.md",

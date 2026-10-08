@@ -1,5 +1,5 @@
 SMALL HOURS ARTICLE FOR REVIEW
-Reviewed DEV article. Source and demo publication is approved; the two links will be filled after public URLs are verified. This article has not been submitted to DEV.
+Reviewed DEV article. Public source and demo links have been verified. This article has not been submitted to DEV.
 
 DEV editor settings
 Title: Small Hours uses local AI to plan a short break outside
@@ -28,7 +28,7 @@ These are generic activity ideas. The app does not find parks, verify opening ho
 
 Demo
 
-[ADD APPROVED PUBLIC VIDEO LINK]
+https://raw.githubusercontent.com/Aniket-pd/small-hours/dd1aa0b8c4738bdfb4ccc7807492c1067d86d235/evidence/browser/small-hours-local-demo.mp4
 
 The demo is a 9.52-second recording of the actual local-model application. It shows a synthetic request, a returned plan, the pocket view, and an alternative. It has no audio and was recorded through automated browser interactions.
 
@@ -36,7 +36,7 @@ This is an indoor software demonstration. No outdoor field test or human usabili
 
 Code
 
-[ADD APPROVED PUBLIC CODE REPOSITORY LINK]
+https://github.com/Aniket-pd/small-hours
 
 The README explains setup and reproduction. The application requires Node.js 22 or newer. Dependencies and model files need an initial network download; subsequent ranking runs locally on the CPU.
 
